@@ -1,0 +1,10 @@
+# Data
+data/downloads/
+data/source/
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+
+!data/**/.gitkeep

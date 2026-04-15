@@ -1,0 +1,65 @@
+[2026-04-15T15:58:49.421+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-15T15:58:49.444+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_prepare_instacart_source.prepare_instacart_source_from_kaggle manual__2026-04-15T15:58:46.471204+00:00 [queued]>
+[2026-04-15T15:58:49.454+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_prepare_instacart_source.prepare_instacart_source_from_kaggle manual__2026-04-15T15:58:46.471204+00:00 [queued]>
+[2026-04-15T15:58:49.454+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-04-15T15:58:49.476+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): prepare_instacart_source_from_kaggle> on 2026-04-15 15:58:46.471204+00:00
+[2026-04-15T15:58:49.485+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_prepare_instacart_source', 'prepare_instacart_source_from_kaggle', 'manual__2026-04-15T15:58:46.471204+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/dag_prepare_instacart_source.py', '--cfg-path', '/tmp/tmpmwp53sn4']
+[2026-04-15T15:58:49.487+0000] {standard_task_runner.py:105} INFO - Job 34: Subtask prepare_instacart_source_from_kaggle
+[2026-04-15T15:58:49.488+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=226) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-15T15:58:49.489+0000] {standard_task_runner.py:72} INFO - Started process 227 to run task
+[2026-04-15T15:58:49.540+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_prepare_instacart_source.prepare_instacart_source_from_kaggle manual__2026-04-15T15:58:46.471204+00:00 [running]> on host cb91fb8ef273
+[2026-04-15T15:58:49.640+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_prepare_instacart_source' AIRFLOW_CTX_TASK_ID='prepare_instacart_source_from_kaggle' AIRFLOW_CTX_EXECUTION_DATE='2026-04-15T15:58:46.471204+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-15T15:58:46.471204+00:00'
+[2026-04-15T15:58:49.641+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-15T15:58:49.656+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.656+0000] {logging_mixin.py:190} INFO - Retail Lakehouse - Preparação da origem via Kaggle
+[2026-04-15T15:58:49.656+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.657+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.657+0000] {logging_mixin.py:190} INFO - Validação de credenciais Kaggle
+[2026-04-15T15:58:49.657+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.657+0000] {logging_mixin.py:190} INFO - [OK] kaggle.json encontrado em: /opt/***/secrets/kaggle.json
+[2026-04-15T15:58:49.658+0000] {logging_mixin.py:190} INFO - [OK] KAGGLE_CONFIG_DIR definido como: /opt/***/secrets
+[2026-04-15T15:58:49.658+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.658+0000] {logging_mixin.py:190} INFO - Autenticação na API do Kaggle
+[2026-04-15T15:58:49.658+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.659+0000] {logging_mixin.py:190} INFO - [OK] Autenticação no Kaggle realizada com sucesso.
+[2026-04-15T15:58:49.660+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.660+0000] {logging_mixin.py:190} INFO - Download do dataset do Kaggle
+[2026-04-15T15:58:49.660+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:58:49.660+0000] {logging_mixin.py:190} INFO - Dataset URL: https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis
+[2026-04-15T15:59:12.266+0000] {logging_mixin.py:190} INFO - Downloading instacart-market-basket-analysis.zip to /opt/***/data/downloads
+[2026-04-15T15:59:12.285+0000] {logging_mixin.py:190} WARNING -   0%|          | 0.00/197M [00:00<?, ?B/s]
+[2026-04-15T15:59:12.388+0000] {logging_mixin.py:190} WARNING -  97%|#########6| 191M/197M [00:00<00:00, 1.96GB/s]
+[2026-04-15T15:59:12.412+0000] {logging_mixin.py:190} WARNING - 100%|##########| 197M/197M [00:00<00:00, 1.64GB/s]
+[2026-04-15T15:59:12.428+0000] {logging_mixin.py:190} INFO - [OK] Dataset baixado com sucesso: /opt/***/data/downloads/instacart-market-basket-analysis.zip
+[2026-04-15T15:59:12.428+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:59:12.428+0000] {logging_mixin.py:190} INFO - Extração do dataset
+[2026-04-15T15:59:12.428+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:59:27.763+0000] {logging_mixin.py:190} INFO - [OK] Dataset extraído em: /opt/***/data/source/instacart
+[2026-04-15T15:59:27.764+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:59:27.764+0000] {logging_mixin.py:190} INFO - Validação dos arquivos extraídos
+[2026-04-15T15:59:27.764+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:59:27.764+0000] {logging_mixin.py:190} INFO - [OK] Arquivo encontrado: orders.csv
+[2026-04-15T15:59:27.765+0000] {logging_mixin.py:190} INFO - [OK] Arquivo encontrado: products.csv
+[2026-04-15T15:59:27.765+0000] {logging_mixin.py:190} INFO - [OK] Arquivo encontrado: departments.csv
+[2026-04-15T15:59:27.765+0000] {logging_mixin.py:190} INFO - [OK] Arquivo encontrado: aisles.csv
+[2026-04-15T15:59:27.765+0000] {logging_mixin.py:190} INFO - [OK] Arquivo encontrado: order_products__prior.csv
+[2026-04-15T15:59:27.765+0000] {logging_mixin.py:190} INFO - [OK] Arquivo encontrado: order_products__train.csv
+[2026-04-15T15:59:27.765+0000] {logging_mixin.py:190} INFO - [OK] Todos os arquivos esperados estão disponíveis.
+[2026-04-15T15:59:27.766+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:59:27.766+0000] {logging_mixin.py:190} INFO - Resumo da preparação da origem
+[2026-04-15T15:59:27.766+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-04-15T15:59:27.766+0000] {logging_mixin.py:190} INFO - Diretório final: /opt/***/data/source/instacart
+[2026-04-15T15:59:27.767+0000] {logging_mixin.py:190} INFO - Total de arquivos CSV: 6
+[2026-04-15T15:59:27.767+0000] {logging_mixin.py:190} INFO - - aisles.csv | tamanho=2603 bytes
+[2026-04-15T15:59:27.767+0000] {logging_mixin.py:190} INFO - - departments.csv | tamanho=270 bytes
+[2026-04-15T15:59:27.767+0000] {logging_mixin.py:190} INFO - - order_products__prior.csv | tamanho=577550706 bytes
+[2026-04-15T15:59:27.767+0000] {logging_mixin.py:190} INFO - - order_products__train.csv | tamanho=24680147 bytes
+[2026-04-15T15:59:27.768+0000] {logging_mixin.py:190} INFO - - orders.csv | tamanho=108968645 bytes
+[2026-04-15T15:59:27.768+0000] {logging_mixin.py:190} INFO - - products.csv | tamanho=2166953 bytes
+[2026-04-15T15:59:27.768+0000] {logging_mixin.py:190} INFO - [OK] Origem do Instacart preparada com sucesso.
+[2026-04-15T15:59:27.768+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-15T15:59:27.780+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-15T15:59:27.780+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_prepare_instacart_source, task_id=prepare_instacart_source_from_kaggle, run_id=manual__2026-04-15T15:58:46.471204+00:00, execution_date=20260415T155846, start_date=20260415T155849, end_date=20260415T155927
+[2026-04-15T15:59:27.845+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-15T15:59:27.864+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-15T15:59:27.865+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
