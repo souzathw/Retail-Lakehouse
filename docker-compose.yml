@@ -28,6 +28,7 @@ x-airflow-common:
     - ./.env:/opt/airflow/.env
     - ./requirements.txt:/requirements.txt
     - ./secrets:/opt/airflow/secrets
+    - /var/run/docker.sock:/var/run/docker.sock
   user: "${AIRFLOW_UID}:0"
   depends_on:
     postgres:

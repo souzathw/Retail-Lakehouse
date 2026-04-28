@@ -14,8 +14,6 @@ AIRFLOW_INGESTION_PATH = "/opt/airflow/ingestion/src"
 if AIRFLOW_INGESTION_PATH not in sys.path:
     sys.path.append(AIRFLOW_INGESTION_PATH)
 
-from download_instacart_kaggle import prepare_instacart_source_from_kaggle  # noqa: E402
-
 
 def print_prepare_source_context() -> None:
     print("==================================================")
@@ -23,6 +21,12 @@ def print_prepare_source_context() -> None:
     print(f"KAGGLE_DATASET={os.getenv('KAGGLE_DATASET')}")
     print(f"LOCAL_SOURCE_INSTACART_DIR={os.getenv('LOCAL_SOURCE_INSTACART_DIR')}")
     print("==================================================")
+
+
+def run_prepare_instacart_source_from_kaggle() -> None:
+    from download_instacart_kaggle import prepare_instacart_source_from_kaggle
+
+    prepare_instacart_source_from_kaggle()
 
 
 with DAG(
@@ -43,7 +47,7 @@ with DAG(
 
     prepare_source = PythonOperator(
         task_id="prepare_instacart_source_from_kaggle",
-        python_callable=prepare_instacart_source_from_kaggle,
+        python_callable=run_prepare_instacart_source_from_kaggle,
     )
 
     end = EmptyOperator(task_id="end")
