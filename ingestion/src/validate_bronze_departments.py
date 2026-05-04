@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import List, Optional
 
-from pyspark.sql import SparkSession
+import pyarrow.parquet as pq
 
 
 EXPECTED_BRONZE_COLUMNS: List[str] = [
@@ -24,10 +24,7 @@ def get_env_var(name: str, default: Optional[str] = None) -> str:
 
 
 def resolve_project_root() -> Path:
-    """
-    No container do Airflow este arquivo estará em /opt/airflow/ingestion/src.
-    """
-    return Path(__file__).resolve().parents[3]
+    return Path(__file__).resolve().parents[2]
 
 
 def resolve_bronze_base_dir() -> Path:
@@ -55,20 +52,15 @@ def find_latest_bronze_partition(entity_dir: Path) -> Path:
     return sorted(partitions, key=lambda p: p.name)[-1]
 
 
-def create_spark_session() -> SparkSession:
-    spark_app_name = get_env_var("SPARK_APP_NAME", "retail-lakehouse-spark")
-    spark_master = get_env_var("SPARK_MASTER", "local[*]")
+def list_parquet_files(partition_dir: Path) -> List[Path]:
+    parquet_files = sorted(partition_dir.glob("*.parquet"))
 
-    spark = (
-        SparkSession.builder
-        .appName(f"{spark_app_name}-validate-bronze-departments")
-        .master(spark_master)
-        .config("spark.sql.session.timeZone", "UTC")
-        .getOrCreate()
-    )
+    if not parquet_files:
+        raise FileNotFoundError(
+            f"Nenhum arquivo Parquet encontrado em: {partition_dir}"
+        )
 
-    spark.sparkContext.setLogLevel("WARN")
-    return spark
+    return parquet_files
 
 
 def validate_bronze_departments() -> None:
@@ -79,50 +71,50 @@ def validate_bronze_departments() -> None:
     bronze_base_dir = resolve_bronze_base_dir()
     entity_dir = bronze_base_dir / "instacart" / "departments"
     latest_partition = find_latest_bronze_partition(entity_dir)
+    parquet_files = list_parquet_files(latest_partition)
 
     print(f"Diretório base Bronze: {bronze_base_dir}")
     print(f"Partição Bronze usada: {latest_partition}")
+    print(f"Arquivos Parquet encontrados: {[str(p.name) for p in parquet_files]}")
 
-    spark = create_spark_session()
+    table = pq.read_table(str(latest_partition))
+    columns_found = table.column_names
+    missing_columns = sorted(set(EXPECTED_BRONZE_COLUMNS) - set(columns_found))
+    unexpected_columns = sorted(set(columns_found) - set(EXPECTED_BRONZE_COLUMNS))
+    row_count = table.num_rows
 
-    try:
-        df = spark.read.parquet(str(latest_partition))
+    print("==================================================")
+    print("Resultado da validação Bronze")
+    print("==================================================")
+    print(f"Total de linhas: {row_count}")
+    print(f"Colunas encontradas: {columns_found}")
+    print(f"Colunas esperadas: {EXPECTED_BRONZE_COLUMNS}")
+    print(f"Colunas ausentes: {missing_columns}")
+    print(f"Colunas inesperadas: {unexpected_columns}")
+    print("Schema Arrow:")
+    print(table.schema)
 
-        columns_found = df.columns
-        missing_columns = sorted(set(EXPECTED_BRONZE_COLUMNS) - set(columns_found))
-        unexpected_columns = sorted(set(columns_found) - set(EXPECTED_BRONZE_COLUMNS))
-        row_count = df.count()
+    preview_rows = min(20, row_count)
+    if preview_rows > 0:
+        print("Prévia dos dados:")
+        preview_df = table.slice(0, preview_rows).to_pandas()
+        print(preview_df.to_string(index=False))
 
-        print("==================================================")
-        print("Resultado da validação Bronze")
-        print("==================================================")
-        print(f"Total de linhas: {row_count}")
-        print(f"Colunas encontradas: {columns_found}")
-        print(f"Colunas esperadas: {EXPECTED_BRONZE_COLUMNS}")
-        print(f"Colunas ausentes: {missing_columns}")
-        print(f"Colunas inesperadas: {unexpected_columns}")
+    errors: List[str] = []
 
-        df.printSchema()
-        df.show(20, truncate=False)
+    if row_count == 0:
+        errors.append("A Bronze de departments está vazia.")
 
-        errors: List[str] = []
+    if missing_columns:
+        errors.append(f"Colunas ausentes na Bronze: {missing_columns}")
 
-        if row_count == 0:
-            errors.append("A Bronze de departments está vazia.")
+    if errors:
+        print("Erros encontrados:")
+        for error in errors:
+            print(f"- {error}")
+        raise ValueError("Validação da Bronze de departments falhou.")
 
-        if missing_columns:
-            errors.append(f"Colunas ausentes na Bronze: {missing_columns}")
-
-        if errors:
-            print("Erros encontrados:")
-            for error in errors:
-                print(f"- {error}")
-            raise ValueError("Validação da Bronze de departments falhou.")
-
-        print("[OK] Validação da Bronze de departments concluída com sucesso.")
-
-    finally:
-        spark.stop()
+    print("[OK] Validação da Bronze de departments concluída com sucesso.")
 
 
 if __name__ == "__main__":

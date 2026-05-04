@@ -14,8 +14,6 @@ AIRFLOW_INGESTION_PATH = "/opt/airflow/ingestion/src"
 if AIRFLOW_INGESTION_PATH not in sys.path:
     sys.path.append(AIRFLOW_INGESTION_PATH)
 
-from validate_bronze_departments import validate_bronze_departments  # noqa: E402
-
 
 def print_validate_bronze_departments_context() -> None:
     print("==================================================")
@@ -23,6 +21,12 @@ def print_validate_bronze_departments_context() -> None:
     print(f"LOCAL_BRONZE_DIR={os.getenv('LOCAL_BRONZE_DIR')}")
     print("Objetivo: validar a saída Parquet da Bronze de departments")
     print("==================================================")
+
+
+def run_validate_bronze_departments() -> None:
+    from validate_bronze_departments import validate_bronze_departments
+
+    validate_bronze_departments()
 
 
 with DAG(
@@ -43,7 +47,7 @@ with DAG(
 
     validate_bronze = PythonOperator(
         task_id="validate_bronze_departments",
-        python_callable=validate_bronze_departments,
+        python_callable=run_validate_bronze_departments,
     )
 
     end = EmptyOperator(task_id="end")
