@@ -1,0 +1,252 @@
+[2026-05-11T23:41:42.512+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:41:42.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:41:42.514+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:41:42.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:41:42.524+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:41:42.561+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:41:42.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:41:42.577+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:41:42.576+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:41:42.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.101 seconds
+[2026-05-11T23:42:12.781+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:42:12.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:42:12.784+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:42:12.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:42:12.791+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:42:12.819+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:42:12.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:42:12.834+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:42:12.834+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:42:12.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.075 seconds
+[2026-05-11T23:42:43.959+0000] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:42:43.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:42:43.962+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:42:43.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:42:43.968+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:42:44.000+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:42:44.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:42:44.015+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:42:44.015+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:42:44.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.110 seconds
+[2026-05-11T23:43:14.928+0000] {processor.py:186} INFO - Started process (PID=404) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:43:14.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:43:14.931+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:43:14.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:43:14.938+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:43:14.967+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:43:14.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:43:14.982+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:43:14.981+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:43:15.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.078 seconds
+[2026-05-11T23:43:45.893+0000] {processor.py:186} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:43:45.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:43:45.896+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:43:45.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:43:45.903+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:43:45.932+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:43:45.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:43:45.947+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:43:45.947+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:43:45.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.079 seconds
+[2026-05-11T23:44:16.826+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:44:16.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:44:16.829+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:44:16.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:44:16.835+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:44:16.865+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:44:16.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:44:16.879+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:44:16.879+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:44:16.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.077 seconds
+[2026-05-11T23:44:47.747+0000] {processor.py:186} INFO - Started process (PID=556) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:44:47.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:44:47.750+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:44:47.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:44:47.756+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:44:47.784+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:44:47.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:44:47.797+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:44:47.797+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:44:47.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.084 seconds
+[2026-05-11T23:45:18.852+0000] {processor.py:186} INFO - Started process (PID=606) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:45:18.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:45:18.855+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:45:18.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:45:18.862+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:45:18.890+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:45:18.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:45:18.906+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:45:18.905+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:45:18.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.076 seconds
+[2026-05-11T23:45:49.800+0000] {processor.py:186} INFO - Started process (PID=656) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:45:49.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:45:49.802+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:45:49.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:45:49.809+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:45:49.836+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:45:49.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:45:49.850+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:45:49.850+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:45:49.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.084 seconds
+[2026-05-11T23:46:20.813+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:46:20.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:46:20.817+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:46:20.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:46:20.827+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:46:20.875+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:46:20.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:46:20.898+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:46:20.897+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:46:20.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.136 seconds
+[2026-05-11T23:46:51.944+0000] {processor.py:186} INFO - Started process (PID=756) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:46:51.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:46:51.947+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:46:51.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:46:51.954+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:46:51.982+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:46:51.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:46:51.996+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:46:51.995+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:46:52.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.076 seconds
+[2026-05-11T23:47:22.957+0000] {processor.py:186} INFO - Started process (PID=806) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:47:22.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:47:22.959+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:47:22.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:47:22.966+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:47:22.995+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:47:22.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:47:23.009+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:47:23.009+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:47:23.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.076 seconds
+[2026-05-11T23:47:53.916+0000] {processor.py:186} INFO - Started process (PID=856) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:47:53.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:47:53.919+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:47:53.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:47:53.926+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:47:53.955+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:47:53.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:47:53.969+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:47:53.969+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:47:53.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.079 seconds
+[2026-05-11T23:48:24.897+0000] {processor.py:186} INFO - Started process (PID=906) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:48:24.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:48:24.899+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:48:24.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:48:24.908+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:48:24.939+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:48:24.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:48:24.956+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:48:24.955+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:48:24.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.100 seconds
+[2026-05-11T23:48:55.883+0000] {processor.py:186} INFO - Started process (PID=954) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:48:55.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:48:55.886+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:48:55.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:48:55.893+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:48:55.925+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:48:55.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:48:55.941+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:48:55.940+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:48:55.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.084 seconds
+[2026-05-11T23:49:26.850+0000] {processor.py:186} INFO - Started process (PID=1006) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:49:26.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:49:26.870+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:49:26.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:49:26.882+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:49:26.930+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:49:26.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:49:26.956+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:49:26.955+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:49:27.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.170 seconds
+[2026-05-11T23:49:57.147+0000] {processor.py:186} INFO - Started process (PID=1056) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:49:57.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:49:57.151+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:49:57.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:49:57.157+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:49:57.189+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:49:57.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:49:57.204+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:49:57.204+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:49:57.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.102 seconds
+[2026-05-11T23:50:28.170+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:50:28.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:50:28.172+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:50:28.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:50:28.179+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:50:28.211+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:50:28.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:50:28.227+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:50:28.227+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:50:28.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.083 seconds
+[2026-05-11T23:50:59.066+0000] {processor.py:186} INFO - Started process (PID=1155) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:50:59.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:50:59.069+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:50:59.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:50:59.076+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:50:59.105+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:50:59.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:50:59.119+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:50:59.119+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:50:59.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.076 seconds
+[2026-05-11T23:51:29.981+0000] {processor.py:186} INFO - Started process (PID=1206) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:51:29.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:51:29.983+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:51:29.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:51:29.990+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:51:30.020+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:51:30.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:51:30.034+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:51:30.033+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:51:30.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.077 seconds
+[2026-05-11T23:52:00.972+0000] {processor.py:186} INFO - Started process (PID=1256) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:52:00.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:52:00.975+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:52:00.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:52:00.982+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:52:01.013+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:52:01.012+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:52:01.028+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:52:01.028+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:52:01.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.079 seconds
+[2026-05-11T23:52:31.934+0000] {processor.py:186} INFO - Started process (PID=1306) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:52:31.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:52:31.937+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:52:31.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:52:31.945+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:52:31.980+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:52:31.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:52:32.000+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:52:32.000+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:52:32.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.117 seconds
+[2026-05-11T23:53:02.974+0000] {processor.py:186} INFO - Started process (PID=1356) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:53:02.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:53:02.977+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:53:02.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:53:02.983+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:53:03.016+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:53:03.015+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:53:03.031+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:53:03.031+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:53:03.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.101 seconds
+[2026-05-11T23:53:34.071+0000] {processor.py:186} INFO - Started process (PID=1406) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:53:34.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:53:34.074+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:53:34.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:53:34.080+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:53:34.109+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:53:34.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:53:34.122+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:53:34.122+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:53:34.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.073 seconds
+[2026-05-11T23:54:05.024+0000] {processor.py:186} INFO - Started process (PID=1456) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:54:05.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:54:05.026+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:54:05.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:54:05.033+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:54:05.061+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:54:05.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:54:05.075+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:54:05.075+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:54:05.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.098 seconds
+[2026-05-11T23:54:35.987+0000] {processor.py:186} INFO - Started process (PID=1506) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:54:35.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:54:35.991+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:54:35.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:54:35.997+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:54:36.025+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:54:36.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:54:36.040+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:54:36.040+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:54:36.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.075 seconds
+[2026-05-11T23:55:06.923+0000] {processor.py:186} INFO - Started process (PID=1556) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:55:06.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:55:06.925+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:55:06.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:55:06.932+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:55:06.960+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:55:06.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:55:06.974+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:55:06.973+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:55:07.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.105 seconds
+[2026-05-11T23:55:38.076+0000] {processor.py:186} INFO - Started process (PID=1606) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:55:38.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:55:38.079+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:55:38.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:55:38.085+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:55:38.112+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:55:38.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:55:38.125+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:55:38.125+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:55:38.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.099 seconds
+[2026-05-11T23:56:09.354+0000] {processor.py:186} INFO - Started process (PID=1656) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:56:09.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:56:09.357+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:56:09.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:56:09.364+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:56:09.395+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:56:09.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:56:09.410+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:56:09.410+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:56:09.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.172 seconds
+[2026-05-11T23:56:39.958+0000] {processor.py:186} INFO - Started process (PID=1706) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:56:39.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:56:39.961+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:56:39.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:56:39.968+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:56:39.999+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:56:39.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:56:40.016+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:56:40.016+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:56:40.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.081 seconds
+[2026-05-11T23:57:10.953+0000] {processor.py:186} INFO - Started process (PID=1756) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:57:10.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:57:10.956+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:57:10.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:57:10.962+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:57:10.990+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:57:10.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:57:11.004+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:57:11.004+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:57:11.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.078 seconds
+[2026-05-11T23:57:41.891+0000] {processor.py:186} INFO - Started process (PID=1806) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:57:41.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:57:41.894+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:57:41.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:57:41.901+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:57:41.931+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:57:41.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:57:41.945+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:57:41.945+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:57:41.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.078 seconds
+[2026-05-11T23:58:12.765+0000] {processor.py:186} INFO - Started process (PID=1856) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:58:12.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:58:12.768+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:58:12.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:58:12.775+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:58:12.804+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:58:12.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:58:12.818+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:58:12.818+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:58:12.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.075 seconds
+[2026-05-11T23:58:43.640+0000] {processor.py:186} INFO - Started process (PID=1906) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:58:43.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:58:43.643+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:58:43.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:58:43.650+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:58:43.679+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:58:43.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:58:43.693+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:58:43.693+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:58:43.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.077 seconds
+[2026-05-11T23:59:14.572+0000] {processor.py:186} INFO - Started process (PID=1956) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:59:14.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:59:14.575+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:59:14.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:59:14.582+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:59:14.613+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:59:14.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:59:14.627+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:59:14.627+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:59:14.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.079 seconds
+[2026-05-11T23:59:45.512+0000] {processor.py:186} INFO - Started process (PID=2005) to work on /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:59:45.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_aisles.py for tasks to queue
+[2026-05-11T23:59:45.515+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:59:45.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:59:45.522+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_aisles' retrieved from /opt/airflow/dags/dag_validate_bronze_aisles.py
+[2026-05-11T23:59:45.550+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:59:45.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-11T23:59:45.565+0000] {logging_mixin.py:190} INFO - [2026-05-11T23:59:45.565+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_aisles to None, run_after=None
+[2026-05-11T23:59:45.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_aisles.py took 0.076 seconds

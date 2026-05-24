@@ -1,0 +1,131 @@
+[2026-05-18T15:51:33.132+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-18T15:51:33.159+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_bronze_orders.run_bronze_orders manual__2026-05-18T15:51:30.425724+00:00 [queued]>
+[2026-05-18T15:51:33.169+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_bronze_orders.run_bronze_orders manual__2026-05-18T15:51:30.425724+00:00 [queued]>
+[2026-05-18T15:51:33.169+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-05-18T15:51:33.198+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): run_bronze_orders> on 2026-05-18 15:51:30.425724+00:00
+[2026-05-18T15:51:33.207+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_bronze_orders', 'run_bronze_orders', 'manual__2026-05-18T15:51:30.425724+00:00', '--job-id', '119', '--raw', '--subdir', 'DAGS_FOLDER/dag_bronze_orders.py', '--cfg-path', '/tmp/tmpgh0gxfww']
+[2026-05-18T15:51:33.209+0000] {standard_task_runner.py:105} INFO - Job 119: Subtask run_bronze_orders
+[2026-05-18T15:51:33.210+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3540) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-05-18T15:51:33.210+0000] {standard_task_runner.py:72} INFO - Started process 3541 to run task
+[2026-05-18T15:51:33.260+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_bronze_orders.run_bronze_orders manual__2026-05-18T15:51:30.425724+00:00 [running]> on host 2a11bd5bb9e9
+[2026-05-18T15:51:33.358+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_bronze_orders' AIRFLOW_CTX_TASK_ID='run_bronze_orders' AIRFLOW_CTX_EXECUTION_DATE='2026-05-18T15:51:30.425724+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-18T15:51:30.425724+00:00'
+[2026-05-18T15:51:33.359+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-18T15:51:33.373+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-05-18T15:51:33.373+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'docker exec retail_lakehouse_spark /opt/spark/bin/spark-submit --master local[*] /opt/spark-apps/jobs/bronze/bronze_orders.py']
+[2026-05-18T15:51:33.386+0000] {subprocess.py:99} INFO - Output:
+[2026-05-18T15:51:36.310+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:36.311+0000] {subprocess.py:106} INFO - Retail Lakehouse - Bronze de orders
+[2026-05-18T15:51:36.311+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:36.385+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SparkContext: Running Spark version 3.5.1
+[2026-05-18T15:51:36.389+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SparkContext: OS info Linux, 6.17.9-76061709-generic, amd64
+[2026-05-18T15:51:36.391+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SparkContext: Java version 11.0.22
+[2026-05-18T15:51:36.498+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-05-18T15:51:36.639+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO ResourceUtils: ==============================================================
+[2026-05-18T15:51:36.642+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-05-18T15:51:36.642+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO ResourceUtils: ==============================================================
+[2026-05-18T15:51:36.643+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SparkContext: Submitted application: retail-lakehouse-bronze-orders
+[2026-05-18T15:51:36.695+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-05-18T15:51:36.711+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO ResourceProfile: Limiting resource is cpu
+[2026-05-18T15:51:36.714+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-05-18T15:51:36.804+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SecurityManager: Changing view acls to: spark
+[2026-05-18T15:51:36.806+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SecurityManager: Changing modify acls to: spark
+[2026-05-18T15:51:36.811+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SecurityManager: Changing view acls groups to:
+[2026-05-18T15:51:36.812+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SecurityManager: Changing modify acls groups to:
+[2026-05-18T15:51:36.812+0000] {subprocess.py:106} INFO - 26/05/18 15:51:36 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+[2026-05-18T15:51:37.154+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO Utils: Successfully started service 'sparkDriver' on port 40815.
+[2026-05-18T15:51:37.189+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO SparkEnv: Registering MapOutputTracker
+[2026-05-18T15:51:37.264+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO SparkEnv: Registering BlockManagerMaster
+[2026-05-18T15:51:37.288+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-05-18T15:51:37.288+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-05-18T15:51:37.298+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-05-18T15:51:37.346+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-26c0e485-a3bf-47de-a621-4aa1ceb9bc01
+[2026-05-18T15:51:37.390+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2026-05-18T15:51:37.416+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-05-18T15:51:37.646+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-05-18T15:51:37.772+0000] {subprocess.py:106} INFO - 26/05/18 15:51:37 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-05-18T15:51:38.017+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO Executor: Starting executor ID driver on host 983e4b402718
+[2026-05-18T15:51:38.017+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO Executor: OS info Linux, 6.17.9-76061709-generic, amd64
+[2026-05-18T15:51:38.019+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO Executor: Java version 11.0.22
+[2026-05-18T15:51:38.034+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2026-05-18T15:51:38.035+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@17fa9eda for default.
+[2026-05-18T15:51:38.071+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43755.
+[2026-05-18T15:51:38.072+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO NettyBlockTransferService: Server created on 983e4b402718:43755
+[2026-05-18T15:51:38.074+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-05-18T15:51:38.084+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 983e4b402718, 43755, None)
+[2026-05-18T15:51:38.089+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO BlockManagerMasterEndpoint: Registering block manager 983e4b402718:43755 with 434.4 MiB RAM, BlockManagerId(driver, 983e4b402718, 43755, None)
+[2026-05-18T15:51:38.092+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 983e4b402718, 43755, None)
+[2026-05-18T15:51:38.094+0000] {subprocess.py:106} INFO - 26/05/18 15:51:38 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 983e4b402718, 43755, None)
+[2026-05-18T15:51:38.772+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:38.772+0000] {subprocess.py:106} INFO - Leitura da raw de orders
+[2026-05-18T15:51:38.773+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:38.773+0000] {subprocess.py:106} INFO - Arquivo de entrada: /data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv
+[2026-05-18T15:51:48.472+0000] {subprocess.py:106} INFO - Schema lido da raw:
+[2026-05-18T15:51:48.477+0000] {subprocess.py:106} INFO - root
+[2026-05-18T15:51:48.477+0000] {subprocess.py:106} INFO -  |-- order_id: string (nullable = true)
+[2026-05-18T15:51:48.478+0000] {subprocess.py:106} INFO -  |-- user_id: string (nullable = true)
+[2026-05-18T15:51:48.478+0000] {subprocess.py:106} INFO -  |-- eval_set: string (nullable = true)
+[2026-05-18T15:51:48.479+0000] {subprocess.py:106} INFO -  |-- order_number: string (nullable = true)
+[2026-05-18T15:51:48.479+0000] {subprocess.py:106} INFO -  |-- order_dow: string (nullable = true)
+[2026-05-18T15:51:48.480+0000] {subprocess.py:106} INFO -  |-- order_hour_of_day: string (nullable = true)
+[2026-05-18T15:51:48.480+0000] {subprocess.py:106} INFO -  |-- days_since_prior_order: string (nullable = true)
+[2026-05-18T15:51:48.481+0000] {subprocess.py:106} INFO - 
+[2026-05-18T15:51:48.481+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:48.482+0000] {subprocess.py:106} INFO - Transformação Bronze de orders
+[2026-05-18T15:51:48.482+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:48.830+0000] {subprocess.py:106} INFO - Schema após transformação Bronze:
+[2026-05-18T15:51:48.831+0000] {subprocess.py:106} INFO - root
+[2026-05-18T15:51:48.832+0000] {subprocess.py:106} INFO -  |-- order_id: integer (nullable = true)
+[2026-05-18T15:51:48.832+0000] {subprocess.py:106} INFO -  |-- user_id: integer (nullable = true)
+[2026-05-18T15:51:48.832+0000] {subprocess.py:106} INFO -  |-- eval_set: string (nullable = true)
+[2026-05-18T15:51:48.832+0000] {subprocess.py:106} INFO -  |-- order_number: integer (nullable = true)
+[2026-05-18T15:51:48.832+0000] {subprocess.py:106} INFO -  |-- order_dow: integer (nullable = true)
+[2026-05-18T15:51:48.833+0000] {subprocess.py:106} INFO -  |-- order_hour_of_day: integer (nullable = true)
+[2026-05-18T15:51:48.833+0000] {subprocess.py:106} INFO -  |-- days_since_prior_order: double (nullable = true)
+[2026-05-18T15:51:48.833+0000] {subprocess.py:106} INFO -  |-- source_file_name: string (nullable = false)
+[2026-05-18T15:51:48.833+0000] {subprocess.py:106} INFO -  |-- raw_ingestion_date: string (nullable = false)
+[2026-05-18T15:51:48.833+0000] {subprocess.py:106} INFO -  |-- bronze_processed_at: timestamp (nullable = false)
+[2026-05-18T15:51:48.834+0000] {subprocess.py:106} INFO - 
+[2026-05-18T15:51:48.834+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:48.834+0000] {subprocess.py:106} INFO - Escrita da Bronze de orders
+[2026-05-18T15:51:48.834+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:51:48.834+0000] {subprocess.py:106} INFO - Diretório de saída: /data/bronze/instacart/orders/ingestion_date=2026-04-15
+[2026-05-18T15:52:01.353+0000] {subprocess.py:106} INFO - [OK] Bronze de orders escrita com sucesso em Parquet.
+[2026-05-18T15:52:01.354+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:52:01.354+0000] {subprocess.py:106} INFO - Resumo da Bronze de orders
+[2026-05-18T15:52:01.354+0000] {subprocess.py:106} INFO - ==================================================
+[2026-05-18T15:52:04.613+0000] {subprocess.py:106} INFO - Total de registros: 3421083
+[2026-05-18T15:52:04.614+0000] {subprocess.py:106} INFO - Diretório final: /data/bronze/instacart/orders/ingestion_date=2026-04-15
+[2026-05-18T15:52:04.614+0000] {subprocess.py:106} INFO - Prévia dos dados:
+[2026-05-18T15:52:04.870+0000] {subprocess.py:106} INFO - +--------+-------+--------+------------+---------+-----------------+----------------------+----------------------------------------------------------------------+------------------+--------------------------+
+[2026-05-18T15:52:04.870+0000] {subprocess.py:106} INFO - |order_id|user_id|eval_set|order_number|order_dow|order_hour_of_day|days_since_prior_order|source_file_name                                                      |raw_ingestion_date|bronze_processed_at       |
+[2026-05-18T15:52:04.871+0000] {subprocess.py:106} INFO - +--------+-------+--------+------------+---------+-----------------+----------------------+----------------------------------------------------------------------+------------------+--------------------------+
+[2026-05-18T15:52:04.872+0000] {subprocess.py:106} INFO - |2539329 |1      |prior   |1           |2        |8                |NULL                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.872+0000] {subprocess.py:106} INFO - |2398795 |1      |prior   |2           |3        |7                |15.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.873+0000] {subprocess.py:106} INFO - |473747  |1      |prior   |3           |3        |12               |21.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.873+0000] {subprocess.py:106} INFO - |2254736 |1      |prior   |4           |4        |7                |29.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.873+0000] {subprocess.py:106} INFO - |431534  |1      |prior   |5           |4        |15               |28.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.874+0000] {subprocess.py:106} INFO - |3367565 |1      |prior   |6           |2        |7                |19.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.874+0000] {subprocess.py:106} INFO - |550135  |1      |prior   |7           |1        |9                |20.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.875+0000] {subprocess.py:106} INFO - |3108588 |1      |prior   |8           |1        |14               |14.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.875+0000] {subprocess.py:106} INFO - |2295261 |1      |prior   |9           |1        |16               |0.0                   |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.876+0000] {subprocess.py:106} INFO - |2550362 |1      |prior   |10          |4        |8                |30.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.876+0000] {subprocess.py:106} INFO - |1187899 |1      |train   |11          |4        |8                |14.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.876+0000] {subprocess.py:106} INFO - |2168274 |2      |prior   |1           |2        |11               |NULL                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.877+0000] {subprocess.py:106} INFO - |1501582 |2      |prior   |2           |5        |10               |10.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.877+0000] {subprocess.py:106} INFO - |1901567 |2      |prior   |3           |1        |10               |3.0                   |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.878+0000] {subprocess.py:106} INFO - |738281  |2      |prior   |4           |2        |10               |8.0                   |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.878+0000] {subprocess.py:106} INFO - |1673511 |2      |prior   |5           |3        |11               |8.0                   |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.879+0000] {subprocess.py:106} INFO - |1199898 |2      |prior   |6           |2        |9                |13.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.880+0000] {subprocess.py:106} INFO - |3194192 |2      |prior   |7           |2        |12               |14.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.880+0000] {subprocess.py:106} INFO - |788338  |2      |prior   |8           |1        |15               |27.0                  |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.881+0000] {subprocess.py:106} INFO - |1718559 |2      |prior   |9           |2        |9                |8.0                   |file:///data/raw/instacart/orders/ingestion_date=2026-04-15/orders.csv|2026-04-15        |2026-05-18 15:52:04.628668|
+[2026-05-18T15:52:04.881+0000] {subprocess.py:106} INFO - +--------+-------+--------+------------+---------+-----------------+----------------------+----------------------------------------------------------------------+------------------+--------------------------+
+[2026-05-18T15:52:04.881+0000] {subprocess.py:106} INFO - only showing top 20 rows
+[2026-05-18T15:52:04.882+0000] {subprocess.py:106} INFO - 
+[2026-05-18T15:52:04.883+0000] {subprocess.py:106} INFO - [OK] Job Bronze de orders concluído com sucesso.
+[2026-05-18T15:52:05.360+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-05-18T15:52:05.400+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-18T15:52:05.401+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_bronze_orders, task_id=run_bronze_orders, run_id=manual__2026-05-18T15:51:30.425724+00:00, execution_date=20260518T155130, start_date=20260518T155133, end_date=20260518T155205
+[2026-05-18T15:52:05.477+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-18T15:52:05.502+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-18T15:52:05.505+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

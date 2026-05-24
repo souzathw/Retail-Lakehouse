@@ -1,0 +1,238 @@
+[2026-05-20T00:00:19.958+0000] {processor.py:186} INFO - Started process (PID=71419) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:00:19.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:00:19.962+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:19.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:00:19.969+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:00:20.005+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:20.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:00:20.022+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:20.022+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:00:20.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.129 seconds
+[2026-05-20T00:00:50.456+0000] {processor.py:186} INFO - Started process (PID=71479) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:00:50.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:00:50.460+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:50.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:00:50.469+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:00:50.506+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:50.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:00:50.524+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:50.524+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:00:50.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.137 seconds
+[2026-05-20T00:01:21.178+0000] {processor.py:186} INFO - Started process (PID=71539) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:01:21.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:01:21.205+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:21.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:01:21.212+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:01:21.245+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:21.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:01:21.263+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:21.262+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:01:21.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.129 seconds
+[2026-05-20T00:01:51.515+0000] {processor.py:186} INFO - Started process (PID=71597) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:01:51.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:01:51.519+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:51.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:01:51.527+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:01:51.566+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:51.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:01:51.582+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:51.582+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:01:51.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.121 seconds
+[2026-05-20T00:02:21.970+0000] {processor.py:186} INFO - Started process (PID=71659) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:02:21.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:02:21.999+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:21.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:02:22.007+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:02:22.043+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:22.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:02:22.061+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:22.061+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:02:22.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.127 seconds
+[2026-05-20T00:02:52.612+0000] {processor.py:186} INFO - Started process (PID=71719) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:02:52.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:02:52.643+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:52.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:02:52.654+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:02:52.698+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:52.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:02:52.714+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:52.714+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:02:52.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.133 seconds
+[2026-05-20T00:03:22.999+0000] {processor.py:186} INFO - Started process (PID=71779) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:03:23.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:03:23.004+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:23.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:03:23.013+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:03:23.050+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:23.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:03:23.078+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:23.076+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:03:23.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.111 seconds
+[2026-05-20T00:03:53.413+0000] {processor.py:186} INFO - Started process (PID=71839) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:03:53.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:03:53.416+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:53.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:03:53.425+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:03:53.458+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:53.458+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:03:53.478+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:53.478+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:03:53.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.100 seconds
+[2026-05-20T00:04:23.662+0000] {processor.py:186} INFO - Started process (PID=71897) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:04:23.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:04:23.665+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:23.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:04:23.674+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:04:23.711+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:23.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:04:23.728+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:23.728+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:04:23.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.098 seconds
+[2026-05-20T00:04:53.975+0000] {processor.py:186} INFO - Started process (PID=71959) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:04:53.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:04:53.978+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:53.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:04:53.988+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:04:54.022+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:54.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:04:54.039+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:54.038+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:04:54.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.099 seconds
+[2026-05-20T00:05:24.378+0000] {processor.py:186} INFO - Started process (PID=72019) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:05:24.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:05:24.383+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:24.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:05:24.393+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:05:24.438+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:24.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:05:24.457+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:24.456+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:05:24.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.118 seconds
+[2026-05-20T00:05:54.684+0000] {processor.py:186} INFO - Started process (PID=72077) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:05:54.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:05:54.688+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:54.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:05:54.700+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:05:54.744+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:54.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:05:54.769+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:54.768+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:05:54.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.139 seconds
+[2026-05-20T00:06:25.256+0000] {processor.py:186} INFO - Started process (PID=72139) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:06:25.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:06:25.258+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:25.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:06:25.267+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:06:25.305+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:25.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:06:25.322+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:25.322+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:06:25.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.102 seconds
+[2026-05-20T00:06:55.763+0000] {processor.py:186} INFO - Started process (PID=72199) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:06:55.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:06:55.767+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:55.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:06:55.775+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:06:55.812+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:55.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:06:55.829+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:55.828+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:06:55.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.101 seconds
+[2026-05-20T00:07:25.986+0000] {processor.py:186} INFO - Started process (PID=72259) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:07:25.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:07:25.989+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:25.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:07:25.999+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:07:26.031+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:26.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:07:26.047+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:26.047+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:07:26.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.100 seconds
+[2026-05-20T00:07:56.339+0000] {processor.py:186} INFO - Started process (PID=72319) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:07:56.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:07:56.343+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:56.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:07:56.352+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:07:56.388+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:56.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:07:56.404+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:56.404+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:07:56.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.107 seconds
+[2026-05-20T00:08:26.814+0000] {processor.py:186} INFO - Started process (PID=72379) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:08:26.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:08:26.820+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:26.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:08:26.830+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:08:26.874+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:26.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:08:26.896+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:26.896+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:08:26.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.129 seconds
+[2026-05-20T00:08:57.316+0000] {processor.py:186} INFO - Started process (PID=72439) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:08:57.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:08:57.320+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:57.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:08:57.331+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:08:57.370+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:57.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:08:57.389+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:57.389+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:08:57.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.120 seconds
+[2026-05-20T00:09:27.898+0000] {processor.py:186} INFO - Started process (PID=72499) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:09:27.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:09:27.902+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:27.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:09:27.910+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:09:27.949+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:27.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:09:27.965+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:27.965+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:09:28.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.134 seconds
+[2026-05-20T00:09:58.511+0000] {processor.py:186} INFO - Started process (PID=72559) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:09:58.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:09:58.513+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:58.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:09:58.520+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:09:58.551+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:58.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:09:58.567+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:58.566+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:09:58.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.114 seconds
+[2026-05-20T00:10:29.089+0000] {processor.py:186} INFO - Started process (PID=72619) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:10:29.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:10:29.094+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:29.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:10:29.106+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:10:29.157+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:29.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:10:29.183+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:29.182+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:10:29.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.167 seconds
+[2026-05-20T00:10:59.820+0000] {processor.py:186} INFO - Started process (PID=72679) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:10:59.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:10:59.823+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:59.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:10:59.832+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:10:59.866+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:59.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:10:59.884+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:59.884+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:10:59.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.125 seconds
+[2026-05-20T00:11:30.320+0000] {processor.py:186} INFO - Started process (PID=72737) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:11:30.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:11:30.323+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:30.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:11:30.332+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:11:30.369+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:30.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:11:30.385+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:30.384+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:11:30.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.091 seconds
+[2026-05-20T00:12:00.682+0000] {processor.py:186} INFO - Started process (PID=72797) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:12:00.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:12:00.691+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:00.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:12:00.699+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:12:00.739+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:00.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:12:00.755+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:00.755+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:12:00.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.107 seconds
+[2026-05-20T00:12:31.014+0000] {processor.py:186} INFO - Started process (PID=72857) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:12:31.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:12:31.018+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:31.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:12:31.027+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:12:31.079+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:31.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:12:31.098+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:31.098+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:12:31.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.178 seconds
+[2026-05-20T00:13:02.427+0000] {processor.py:186} INFO - Started process (PID=72919) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:13:02.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:13:02.430+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:02.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:13:02.440+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:13:02.477+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:02.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:13:02.495+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:02.495+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:13:02.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.190 seconds
+[2026-05-20T00:13:33.036+0000] {processor.py:186} INFO - Started process (PID=72979) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:13:33.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:13:33.129+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:33.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:13:33.142+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:13:33.206+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:33.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:13:33.235+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:33.235+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:13:33.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.417 seconds
+[2026-05-20T00:14:04.091+0000] {processor.py:186} INFO - Started process (PID=73039) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:14:04.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:14:04.103+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:04.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:14:04.118+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:14:04.193+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:04.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:14:04.214+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:04.214+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:14:04.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.159 seconds
+[2026-05-20T00:14:34.474+0000] {processor.py:186} INFO - Started process (PID=73099) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:14:34.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:14:34.488+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:34.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:14:34.499+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:14:34.549+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:34.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:14:34.571+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:34.571+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:14:34.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.135 seconds
+[2026-05-20T00:15:05.181+0000] {processor.py:186} INFO - Started process (PID=73159) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:15:05.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:15:05.196+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:05.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:15:05.213+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:15:05.300+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:05.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:15:05.319+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:05.319+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:15:05.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.178 seconds
+[2026-05-20T00:15:35.627+0000] {processor.py:186} INFO - Started process (PID=73219) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:15:35.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:15:35.640+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:35.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:15:35.653+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:15:35.698+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:35.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:15:35.719+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:35.718+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:15:35.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.136 seconds
+[2026-05-20T00:16:06.027+0000] {processor.py:186} INFO - Started process (PID=73279) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:16:06.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:16:06.040+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:06.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:16:06.049+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:16:06.098+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:06.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:16:06.119+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:06.118+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:16:06.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.128 seconds
+[2026-05-20T00:16:36.254+0000] {processor.py:186} INFO - Started process (PID=73339) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:16:36.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:16:36.272+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:36.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:16:36.289+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:16:36.355+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:36.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:16:36.373+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:36.373+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:16:36.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.180 seconds
+[2026-05-20T00:17:06.732+0000] {processor.py:186} INFO - Started process (PID=73399) to work on /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:17:06.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_bronze_products.py for tasks to queue
+[2026-05-20T00:17:06.759+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:17:06.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:17:06.770+0000] {processor.py:925} INFO - DAG(s) 'dag_bronze_products' retrieved from /opt/airflow/dags/dag_bronze_products.py
+[2026-05-20T00:17:06.805+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:17:06.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:17:06.825+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:17:06.825+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_bronze_products to None, run_after=None
+[2026-05-20T00:17:06.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_bronze_products.py took 0.133 seconds

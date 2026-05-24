@@ -1,0 +1,238 @@
+[2026-05-20T00:00:20.267+0000] {processor.py:186} INFO - Started process (PID=71434) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:00:20.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:00:20.270+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:20.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:00:20.278+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:00:20.317+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:20.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:00:20.338+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:20.338+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:00:20.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.125 seconds
+[2026-05-20T00:00:50.793+0000] {processor.py:186} INFO - Started process (PID=71494) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:00:50.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:00:50.798+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:50.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:00:50.809+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:00:50.854+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:50.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:00:50.874+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:00:50.873+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:00:50.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.143 seconds
+[2026-05-20T00:01:21.472+0000] {processor.py:186} INFO - Started process (PID=71554) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:01:21.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:01:21.474+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:21.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:01:21.483+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:01:21.518+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:21.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:01:21.534+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:21.533+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:01:21.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.113 seconds
+[2026-05-20T00:01:51.774+0000] {processor.py:186} INFO - Started process (PID=71612) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:01:51.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:01:51.778+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:51.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:01:51.786+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:01:51.828+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:51.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:01:51.846+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:01:51.846+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:01:51.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.098 seconds
+[2026-05-20T00:02:22.304+0000] {processor.py:186} INFO - Started process (PID=71674) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:02:22.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:02:22.307+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:22.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:02:22.316+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:02:22.352+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:22.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:02:22.371+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:22.371+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:02:22.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.126 seconds
+[2026-05-20T00:02:52.934+0000] {processor.py:186} INFO - Started process (PID=71734) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:02:52.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:02:52.937+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:52.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:02:52.945+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:02:52.978+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:52.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:02:52.995+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:02:52.995+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:02:53.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.115 seconds
+[2026-05-20T00:03:23.261+0000] {processor.py:186} INFO - Started process (PID=71794) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:03:23.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:03:23.265+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:23.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:03:23.273+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:03:23.309+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:23.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:03:23.328+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:23.327+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:03:23.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.098 seconds
+[2026-05-20T00:03:53.558+0000] {processor.py:186} INFO - Started process (PID=71852) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:03:53.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:03:53.561+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:53.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:03:53.569+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:03:53.606+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:53.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:03:53.623+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:03:53.623+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:03:53.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.095 seconds
+[2026-05-20T00:04:23.906+0000] {processor.py:186} INFO - Started process (PID=71912) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:04:23.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:04:23.910+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:23.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:04:23.918+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:04:23.952+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:23.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:04:23.970+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:23.970+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:04:24.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.102 seconds
+[2026-05-20T00:04:54.237+0000] {processor.py:186} INFO - Started process (PID=71974) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:04:54.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:04:54.240+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:54.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:04:54.248+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:04:54.282+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:54.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:04:54.301+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:04:54.301+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:04:54.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.099 seconds
+[2026-05-20T00:05:24.549+0000] {processor.py:186} INFO - Started process (PID=72032) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:05:24.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:05:24.553+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:24.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:05:24.561+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:05:24.599+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:24.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:05:24.618+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:24.618+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:05:24.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.121 seconds
+[2026-05-20T00:05:55.030+0000] {processor.py:186} INFO - Started process (PID=72092) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:05:55.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:05:55.041+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:55.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:05:55.060+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:05:55.115+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:55.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:05:55.136+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:05:55.136+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:05:55.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.150 seconds
+[2026-05-20T00:06:25.544+0000] {processor.py:186} INFO - Started process (PID=72154) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:06:25.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:06:25.548+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:25.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:06:25.556+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:06:25.593+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:25.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:06:25.611+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:25.610+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:06:25.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.105 seconds
+[2026-05-20T00:06:56.026+0000] {processor.py:186} INFO - Started process (PID=72214) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:06:56.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:06:56.031+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:56.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:06:56.039+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:06:56.076+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:56.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:06:56.093+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:06:56.092+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:06:56.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.106 seconds
+[2026-05-20T00:07:26.248+0000] {processor.py:186} INFO - Started process (PID=72274) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:07:26.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:07:26.251+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:26.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:07:26.258+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:07:26.293+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:26.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:07:26.311+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:26.311+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:07:26.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.089 seconds
+[2026-05-20T00:07:56.604+0000] {processor.py:186} INFO - Started process (PID=72334) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:07:56.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:07:56.609+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:56.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:07:56.617+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:07:56.666+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:56.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:07:56.690+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:07:56.690+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:07:56.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.120 seconds
+[2026-05-20T00:08:27.101+0000] {processor.py:186} INFO - Started process (PID=72394) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:08:27.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:08:27.103+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:27.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:08:27.112+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:08:27.148+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:27.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:08:27.165+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:27.165+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:08:27.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.117 seconds
+[2026-05-20T00:08:57.708+0000] {processor.py:186} INFO - Started process (PID=72454) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:08:57.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:08:57.712+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:57.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:08:57.724+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:08:57.771+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:57.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:08:57.792+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:08:57.791+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:08:57.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.129 seconds
+[2026-05-20T00:09:28.245+0000] {processor.py:186} INFO - Started process (PID=72514) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:09:28.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:09:28.249+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:28.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:09:28.257+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:09:28.291+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:28.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:09:28.308+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:28.308+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:09:28.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.122 seconds
+[2026-05-20T00:09:58.804+0000] {processor.py:186} INFO - Started process (PID=72574) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:09:58.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:09:58.807+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:58.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:09:58.815+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:09:58.845+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:58.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:09:58.860+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:09:58.860+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:09:58.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.084 seconds
+[2026-05-20T00:10:29.519+0000] {processor.py:186} INFO - Started process (PID=72634) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:10:29.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:10:29.522+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:29.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:10:29.531+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:10:29.568+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:29.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:10:29.585+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:10:29.585+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:10:29.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.096 seconds
+[2026-05-20T00:11:00.156+0000] {processor.py:186} INFO - Started process (PID=72694) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:11:00.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:11:00.159+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:00.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:11:00.167+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:11:00.203+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:00.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:11:00.221+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:00.221+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:11:00.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.130 seconds
+[2026-05-20T00:11:30.555+0000] {processor.py:186} INFO - Started process (PID=72752) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:11:30.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:11:30.558+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:30.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:11:30.566+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:11:30.603+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:30.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:11:30.621+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:11:30.621+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:11:30.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.095 seconds
+[2026-05-20T00:12:00.962+0000] {processor.py:186} INFO - Started process (PID=72814) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:12:00.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:12:00.970+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:00.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:12:00.980+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:12:01.022+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:01.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:12:01.044+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:01.044+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:12:01.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.127 seconds
+[2026-05-20T00:12:31.525+0000] {processor.py:186} INFO - Started process (PID=72872) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:12:31.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:12:31.598+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:31.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:12:31.607+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:12:31.646+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:31.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:12:31.667+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:12:31.667+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:12:31.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.275 seconds
+[2026-05-20T00:13:02.893+0000] {processor.py:186} INFO - Started process (PID=72934) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:13:02.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:13:02.990+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:02.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:13:03.002+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:13:03.073+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:03.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:13:03.108+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:03.108+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:13:03.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.348 seconds
+[2026-05-20T00:13:33.487+0000] {processor.py:186} INFO - Started process (PID=72992) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:13:33.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:13:33.578+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:33.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:13:33.590+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:13:33.654+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:33.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:13:33.674+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:13:33.674+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:13:33.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.274 seconds
+[2026-05-20T00:14:04.413+0000] {processor.py:186} INFO - Started process (PID=73054) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:14:04.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:14:04.419+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:04.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:14:04.427+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:14:04.468+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:04.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:14:04.496+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:04.496+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:14:04.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.124 seconds
+[2026-05-20T00:14:34.678+0000] {processor.py:186} INFO - Started process (PID=73112) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:14:34.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:14:34.683+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:34.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:14:34.692+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:14:34.729+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:34.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:14:34.747+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:14:34.747+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:14:35.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.479 seconds
+[2026-05-20T00:15:05.497+0000] {processor.py:186} INFO - Started process (PID=73174) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:15:05.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:15:05.500+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:05.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:15:05.509+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:15:05.549+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:05.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:15:05.568+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:05.567+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:15:05.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.110 seconds
+[2026-05-20T00:15:35.905+0000] {processor.py:186} INFO - Started process (PID=73234) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:15:35.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:15:35.909+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:35.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:15:35.917+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:15:35.954+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:35.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:15:35.971+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:15:35.971+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:15:36.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.106 seconds
+[2026-05-20T00:16:06.297+0000] {processor.py:186} INFO - Started process (PID=73294) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:16:06.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:16:06.300+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:06.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:16:06.309+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:16:06.342+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:06.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:16:06.363+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:06.362+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:16:06.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.109 seconds
+[2026-05-20T00:16:36.582+0000] {processor.py:186} INFO - Started process (PID=73354) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:16:36.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:16:36.586+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:36.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:16:36.594+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:16:36.638+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:36.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:16:36.657+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:16:36.657+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:16:36.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.114 seconds
+[2026-05-20T00:17:06.910+0000] {processor.py:186} INFO - Started process (PID=73412) to work on /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:17:06.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_bronze_departments.py for tasks to queue
+[2026-05-20T00:17:06.913+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:17:06.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:17:06.920+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_bronze_departments' retrieved from /opt/airflow/dags/dag_validate_bronze_departments.py
+[2026-05-20T00:17:06.952+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:17:06.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-20T00:17:06.970+0000] {logging_mixin.py:190} INFO - [2026-05-20T00:17:06.969+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_bronze_departments to None, run_after=None
+[2026-05-20T00:17:06.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_bronze_departments.py took 0.089 seconds

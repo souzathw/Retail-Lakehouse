@@ -50,7 +50,7 @@ services:
     volumes:
       - postgres_db_volume:/var/lib/postgresql/data
     ports:
-      - "5433:5432"
+      - "5434:5432"
 
   airflow-init:
     <<: *airflow-common
@@ -103,9 +103,9 @@ services:
     command: >
       /bin/bash -c "/opt/spark/sbin/start-master.sh && tail -f /dev/null"
     ports:
-      - "4040:4040"
-      - "7077:7077"
-      - "8081:8080"
+      - "4041:4040"
+      - "7078:7077"
+      - "8082:8080"
     restart: unless-stopped
 
 volumes:

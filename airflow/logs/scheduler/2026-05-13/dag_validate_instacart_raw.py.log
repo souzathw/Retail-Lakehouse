@@ -1,0 +1,329 @@
+[2026-05-13T00:07:46.887+0000] {processor.py:186} INFO - Started process (PID=51583) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:07:46.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:07:46.891+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:07:46.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:07:46.903+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:07:46.936+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:07:46.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:07:46.952+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:07:46.952+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:07:46.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.096 seconds
+[2026-05-13T00:08:17.604+0000] {processor.py:186} INFO - Started process (PID=51635) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:08:17.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:08:17.697+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:08:17.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:08:17.715+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:08:17.756+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:08:17.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:08:17.774+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:08:17.774+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:08:17.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.246 seconds
+[2026-05-13T00:08:48.111+0000] {processor.py:186} INFO - Started process (PID=51685) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:08:48.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:08:48.127+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:08:48.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:08:48.147+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:08:48.214+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:08:48.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:08:48.230+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:08:48.229+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:08:48.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.152 seconds
+[2026-05-13T00:09:19.239+0000] {processor.py:186} INFO - Started process (PID=51735) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:09:19.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:09:19.244+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:09:19.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:09:19.253+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:09:19.283+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:09:19.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:09:19.299+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:09:19.299+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:09:19.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.087 seconds
+[2026-05-13T00:09:49.374+0000] {processor.py:186} INFO - Started process (PID=51785) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:09:49.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:09:49.378+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:09:49.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:09:49.388+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:09:49.436+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:09:49.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:09:49.465+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:09:49.464+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:09:49.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.128 seconds
+[2026-05-13T00:10:20.388+0000] {processor.py:186} INFO - Started process (PID=51835) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:10:20.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:10:20.392+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:10:20.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:10:20.404+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:10:20.441+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:10:20.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:10:20.461+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:10:20.460+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:10:20.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.104 seconds
+[2026-05-13T00:10:50.626+0000] {processor.py:186} INFO - Started process (PID=51885) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:10:50.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:10:50.629+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:10:50.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:10:50.640+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:10:50.681+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:10:50.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:10:50.697+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:10:50.697+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:10:50.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.123 seconds
+[2026-05-13T00:11:21.150+0000] {processor.py:186} INFO - Started process (PID=51933) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:11:21.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:11:21.187+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:11:21.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:11:21.216+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:11:21.334+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:11:21.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:11:21.388+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:11:21.388+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:11:21.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.388 seconds
+[2026-05-13T00:11:51.940+0000] {processor.py:186} INFO - Started process (PID=51985) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:11:51.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:11:51.943+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:11:51.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:11:51.961+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:11:52.055+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:11:52.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:11:52.081+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:11:52.080+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:11:52.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.174 seconds
+[2026-05-13T00:12:23.146+0000] {processor.py:186} INFO - Started process (PID=52033) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:12:23.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:12:23.150+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:12:23.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:12:23.161+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:12:23.215+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:12:23.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:12:23.239+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:12:23.239+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:12:23.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.120 seconds
+[2026-05-13T00:12:53.497+0000] {processor.py:186} INFO - Started process (PID=52085) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:12:53.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:12:53.500+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:12:53.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:12:53.512+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:12:53.545+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:12:53.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:12:53.563+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:12:53.562+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:12:53.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.118 seconds
+[2026-05-13T00:13:23.835+0000] {processor.py:186} INFO - Started process (PID=52135) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:13:23.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:13:23.839+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:13:23.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:13:23.851+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:13:23.886+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:13:23.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:13:23.903+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:13:23.902+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:13:23.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.096 seconds
+[2026-05-13T00:13:54.168+0000] {processor.py:186} INFO - Started process (PID=52185) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:13:54.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:13:54.201+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:13:54.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:13:54.212+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:13:54.284+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:13:54.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:13:54.325+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:13:54.324+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:13:54.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.220 seconds
+[2026-05-13T00:14:24.710+0000] {processor.py:186} INFO - Started process (PID=52235) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:14:24.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:14:24.739+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:14:24.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:14:24.755+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:14:24.830+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:14:24.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:14:24.863+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:14:24.863+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:14:24.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.196 seconds
+[2026-05-13T00:14:55.064+0000] {processor.py:186} INFO - Started process (PID=52285) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:14:55.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:14:55.098+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:14:55.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:14:55.129+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:14:55.172+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:14:55.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:14:55.190+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:14:55.190+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:14:55.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.195 seconds
+[2026-05-13T00:15:26.322+0000] {processor.py:186} INFO - Started process (PID=52335) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:15:26.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:15:26.345+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:15:26.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:15:26.377+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:15:26.416+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:15:26.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:15:26.445+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:15:26.445+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:15:26.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.200 seconds
+[2026-05-13T00:15:56.610+0000] {processor.py:186} INFO - Started process (PID=52385) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:15:56.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:15:56.641+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:15:56.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:15:56.652+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:15:56.686+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:15:56.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:15:56.701+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:15:56.701+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:15:56.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.123 seconds
+[2026-05-13T00:16:27.719+0000] {processor.py:186} INFO - Started process (PID=52435) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:16:27.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:16:27.724+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:16:27.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:16:27.736+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:16:27.772+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:16:27.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:16:27.789+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:16:27.788+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:16:27.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.136 seconds
+[2026-05-13T00:16:58.332+0000] {processor.py:186} INFO - Started process (PID=52485) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:16:58.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:16:58.338+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:16:58.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:16:58.347+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:16:58.378+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:16:58.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:16:58.396+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:16:58.396+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:16:58.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.095 seconds
+[2026-05-13T00:17:28.629+0000] {processor.py:186} INFO - Started process (PID=52535) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:17:28.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:17:28.726+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:17:28.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:17:28.776+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:17:28.839+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:17:28.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:17:28.856+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:17:28.856+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:17:28.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.336 seconds
+[2026-05-13T00:17:59.919+0000] {processor.py:186} INFO - Started process (PID=52585) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:17:59.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:17:59.933+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:17:59.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:17:59.949+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:18:00.030+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:18:00.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:18:00.048+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:18:00.048+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:18:00.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.161 seconds
+[2026-05-13T00:18:30.225+0000] {processor.py:186} INFO - Started process (PID=52635) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:18:30.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:18:30.240+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:18:30.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:18:30.256+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:18:30.296+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:18:30.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:18:30.312+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:18:30.312+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:18:30.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.138 seconds
+[2026-05-13T00:19:00.643+0000] {processor.py:186} INFO - Started process (PID=52685) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:19:00.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:19:00.667+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:19:00.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:19:00.681+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:19:00.732+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:19:00.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:19:00.766+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:19:00.766+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:19:00.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.167 seconds
+[2026-05-13T00:19:30.890+0000] {processor.py:186} INFO - Started process (PID=52735) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:19:30.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:19:30.905+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:19:30.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:19:30.923+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:19:30.979+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:19:30.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:19:31.002+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:19:31.002+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:19:31.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.143 seconds
+[2026-05-13T00:20:01.067+0000] {processor.py:186} INFO - Started process (PID=52785) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:20:01.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:20:01.072+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:20:01.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:20:01.090+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:20:01.135+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:20:01.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:20:01.152+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:20:01.152+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:20:01.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.116 seconds
+[2026-05-13T00:20:31.301+0000] {processor.py:186} INFO - Started process (PID=52835) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:20:31.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:20:31.329+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:20:31.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:20:31.363+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:20:31.414+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:20:31.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:20:31.433+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:20:31.432+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:20:31.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.182 seconds
+[2026-05-13T00:21:01.579+0000] {processor.py:186} INFO - Started process (PID=52885) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:21:01.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:21:01.582+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:21:01.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:21:01.595+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:21:01.636+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:21:01.636+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:21:01.652+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:21:01.652+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:21:01.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.107 seconds
+[2026-05-13T00:21:31.849+0000] {processor.py:186} INFO - Started process (PID=52935) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:21:31.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:21:31.867+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:21:31.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:21:31.878+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:21:31.917+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:21:31.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:21:31.937+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:21:31.936+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:21:31.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.130 seconds
+[2026-05-13T00:22:02.086+0000] {processor.py:186} INFO - Started process (PID=52985) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:22:02.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:22:02.104+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:22:02.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:22:02.117+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:22:02.155+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:22:02.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:22:02.170+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:22:02.170+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:22:02.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.137 seconds
+[2026-05-13T00:22:32.326+0000] {processor.py:186} INFO - Started process (PID=53035) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:22:32.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:22:32.345+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:22:32.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:22:32.360+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:22:32.418+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:22:32.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:22:32.443+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:22:32.442+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:22:32.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.172 seconds
+[2026-05-13T00:23:02.884+0000] {processor.py:186} INFO - Started process (PID=53085) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:23:02.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:23:02.906+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:23:02.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:23:02.917+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:23:02.953+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:23:02.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:23:02.973+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:23:02.973+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:23:03.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.139 seconds
+[2026-05-13T00:23:33.236+0000] {processor.py:186} INFO - Started process (PID=53135) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:23:33.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:23:33.239+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:23:33.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:23:33.250+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:23:33.282+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:23:33.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:23:33.298+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:23:33.298+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:23:33.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.110 seconds
+[2026-05-13T00:24:03.572+0000] {processor.py:186} INFO - Started process (PID=53185) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:24:03.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:24:03.594+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:24:03.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:24:03.609+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:24:03.655+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:24:03.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:24:03.674+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:24:03.674+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:24:03.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.154 seconds
+[2026-05-13T00:24:33.781+0000] {processor.py:186} INFO - Started process (PID=53235) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:24:33.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:24:33.798+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:24:33.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:24:33.811+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:24:33.853+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:24:33.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:24:33.871+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:24:33.871+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:24:33.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.121 seconds
+[2026-05-13T00:25:04.238+0000] {processor.py:186} INFO - Started process (PID=53285) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:25:04.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:25:04.265+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:25:04.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:25:04.276+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:25:04.311+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:25:04.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:25:04.336+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:25:04.336+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:25:04.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.140 seconds
+[2026-05-13T00:25:34.425+0000] {processor.py:186} INFO - Started process (PID=53335) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:25:34.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:25:34.432+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:25:34.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:25:34.454+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:25:34.505+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:25:34.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:25:34.522+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:25:34.522+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:25:34.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.125 seconds
+[2026-05-13T00:26:04.737+0000] {processor.py:186} INFO - Started process (PID=53385) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:26:04.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:26:04.743+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:26:04.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:26:04.753+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:26:04.802+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:26:04.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:26:04.823+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:26:04.823+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:26:04.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.131 seconds
+[2026-05-13T00:26:35.193+0000] {processor.py:186} INFO - Started process (PID=53435) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:26:35.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:26:35.207+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:26:35.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:26:35.225+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:26:35.268+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:26:35.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:26:35.290+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:26:35.290+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:26:35.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.143 seconds
+[2026-05-13T00:27:05.452+0000] {processor.py:186} INFO - Started process (PID=53485) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:27:05.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:27:05.481+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:27:05.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:27:05.492+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:27:05.531+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:27:05.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:27:05.548+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:27:05.548+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:27:05.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.141 seconds
+[2026-05-13T00:27:35.869+0000] {processor.py:186} INFO - Started process (PID=53535) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:27:35.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:27:35.901+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:27:35.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:27:35.921+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:27:35.986+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:27:35.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:27:36.019+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:27:36.019+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:27:36.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.219 seconds
+[2026-05-13T00:28:06.218+0000] {processor.py:186} INFO - Started process (PID=53585) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:28:06.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:28:06.224+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:28:06.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:28:06.240+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:28:06.295+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:28:06.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:28:06.320+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:28:06.319+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:28:06.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.167 seconds
+[2026-05-13T00:28:36.420+0000] {processor.py:186} INFO - Started process (PID=53635) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:28:36.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:28:36.452+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:28:36.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:28:36.466+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:28:36.515+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:28:36.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:28:36.540+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:28:36.540+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:28:36.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.162 seconds
+[2026-05-13T00:29:07.376+0000] {processor.py:186} INFO - Started process (PID=53685) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:29:07.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:29:07.465+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:29:07.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:29:07.502+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:29:07.560+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:29:07.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:29:07.588+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:29:07.587+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:29:07.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.360 seconds
+[2026-05-13T00:29:38.641+0000] {processor.py:186} INFO - Started process (PID=53735) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:29:38.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:29:38.646+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:29:38.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:29:38.675+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:29:38.718+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:29:38.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:29:38.735+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:29:38.735+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:29:38.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.127 seconds
+[2026-05-13T00:30:08.793+0000] {processor.py:186} INFO - Started process (PID=53785) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:30:08.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:30:08.797+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:30:08.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:30:08.807+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:30:08.840+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:30:08.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:30:08.856+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:30:08.856+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:30:08.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.101 seconds
+[2026-05-13T00:30:38.997+0000] {processor.py:186} INFO - Started process (PID=53835) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:30:38.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:30:39.001+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:30:38.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:30:39.025+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:30:39.082+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:30:39.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:30:39.104+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:30:39.104+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:30:39.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.147 seconds
+[2026-05-13T00:31:10.016+0000] {processor.py:186} INFO - Started process (PID=53885) to work on /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:31:10.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_instacart_raw.py for tasks to queue
+[2026-05-13T00:31:10.019+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:31:10.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:31:10.029+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_instacart_raw' retrieved from /opt/airflow/dags/dag_validate_instacart_raw.py
+[2026-05-13T00:31:10.062+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:31:10.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-13T00:31:10.078+0000] {logging_mixin.py:190} INFO - [2026-05-13T00:31:10.078+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_instacart_raw to None, run_after=None
+[2026-05-13T00:31:10.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_instacart_raw.py took 0.105 seconds
