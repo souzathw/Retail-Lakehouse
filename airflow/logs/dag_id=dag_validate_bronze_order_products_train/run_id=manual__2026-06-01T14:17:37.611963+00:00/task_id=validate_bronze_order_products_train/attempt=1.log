@@ -1,0 +1,66 @@
+[2026-06-01T14:17:39.950+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-01T14:17:39.982+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_validate_bronze_order_products_train.validate_bronze_order_products_train manual__2026-06-01T14:17:37.611963+00:00 [queued]>
+[2026-06-01T14:17:39.996+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_validate_bronze_order_products_train.validate_bronze_order_products_train manual__2026-06-01T14:17:37.611963+00:00 [queued]>
+[2026-06-01T14:17:39.997+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-01T14:17:40.014+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): validate_bronze_order_products_train> on 2026-06-01 14:17:37.611963+00:00
+[2026-06-01T14:17:40.025+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_validate_bronze_order_products_train', 'validate_bronze_order_products_train', 'manual__2026-06-01T14:17:37.611963+00:00', '--job-id', '143', '--raw', '--subdir', 'DAGS_FOLDER/dag_validate_bronze_order_products_train.py', '--cfg-path', '/tmp/tmpn258y3yu']
+[2026-06-01T14:17:40.027+0000] {standard_task_runner.py:105} INFO - Job 143: Subtask validate_bronze_order_products_train
+[2026-06-01T14:17:40.029+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3635) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-01T14:17:40.030+0000] {standard_task_runner.py:72} INFO - Started process 3636 to run task
+[2026-06-01T14:17:40.091+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_validate_bronze_order_products_train.validate_bronze_order_products_train manual__2026-06-01T14:17:37.611963+00:00 [running]> on host 71f672a92783
+[2026-06-01T14:17:40.223+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_validate_bronze_order_products_train' AIRFLOW_CTX_TASK_ID='validate_bronze_order_products_train' AIRFLOW_CTX_EXECUTION_DATE='2026-06-01T14:17:37.611963+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-01T14:17:37.611963+00:00'
+[2026-06-01T14:17:40.223+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-01T14:17:40.463+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-01T14:17:40.463+0000] {logging_mixin.py:190} INFO - Retail Lakehouse - Validação Bronze order_products_train
+[2026-06-01T14:17:40.464+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-01T14:17:40.464+0000] {logging_mixin.py:190} INFO - Diretório base Bronze: /opt/***/data/bronze
+[2026-06-01T14:17:40.465+0000] {logging_mixin.py:190} INFO - Partição Bronze usada: /opt/***/data/bronze/instacart/order_products_train/ingestion_date=2026-04-15
+[2026-06-01T14:17:40.465+0000] {logging_mixin.py:190} INFO - Arquivos Parquet encontrados: ['part-00000-34e1a103-af7a-422b-ba52-b93b8055726d-c000.snappy.parquet', 'part-00001-34e1a103-af7a-422b-ba52-b93b8055726d-c000.snappy.parquet', 'part-00002-34e1a103-af7a-422b-ba52-b93b8055726d-c000.snappy.parquet', 'part-00003-34e1a103-af7a-422b-ba52-b93b8055726d-c000.snappy.parquet']
+[2026-06-01T14:17:41.290+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-01T14:17:41.290+0000] {logging_mixin.py:190} INFO - Resultado da validação Bronze order_products_train
+[2026-06-01T14:17:41.290+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-01T14:17:41.291+0000] {logging_mixin.py:190} INFO - Total de linhas: 1384617
+[2026-06-01T14:17:41.291+0000] {logging_mixin.py:190} INFO - Colunas encontradas: ['order_id', 'product_id', 'add_to_cart_order', 'reordered', 'source_file_name', 'raw_ingestion_date', 'bronze_processed_at']
+[2026-06-01T14:17:41.291+0000] {logging_mixin.py:190} INFO - Colunas esperadas: ['order_id', 'product_id', 'add_to_cart_order', 'reordered', 'source_file_name', 'raw_ingestion_date', 'bronze_processed_at']
+[2026-06-01T14:17:41.291+0000] {logging_mixin.py:190} INFO - Colunas ausentes: []
+[2026-06-01T14:17:41.291+0000] {logging_mixin.py:190} INFO - Colunas inesperadas: []
+[2026-06-01T14:17:41.291+0000] {logging_mixin.py:190} INFO - Schema Arrow:
+[2026-06-01T14:17:41.292+0000] {logging_mixin.py:190} INFO - order_id: int32
+product_id: int32
+add_to_cart_order: int32
+reordered: int32
+source_file_name: string not null
+raw_ingestion_date: string not null
+bronze_processed_at: timestamp[ns] not null
+-- schema metadata --
+org.apache.spark.version: '3.5.1'
+org.apache.spark.sql.parquet.row.metadata: '{"type":"struct","fields":[{"' + 512
+[2026-06-01T14:17:41.292+0000] {logging_mixin.py:190} INFO - Prévia dos dados:
+[2026-06-01T14:17:41.308+0000] {logging_mixin.py:190} INFO -  order_id  product_id  add_to_cart_order  reordered                                                                                    source_file_name raw_ingestion_date        bronze_processed_at
+        1       49302                  1          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       11109                  2          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       10246                  3          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       49683                  4          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       43633                  5          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       13176                  6          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       47209                  7          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+        1       22035                  8          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       39612                  1          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       19660                  2          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       49235                  3          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       43086                  4          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       46620                  5          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       34497                  6          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       48679                  7          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       36       46979                  8          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       38       11913                  1          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       38       18159                  2          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       38        4461                  3          0 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+       38       21616                  4          1 file:///data/raw/instacart/order_products_train/ingestion_date=2026-04-15/order_products__train.csv         2026-04-15 2026-06-01 14:16:18.909659
+[2026-06-01T14:17:41.308+0000] {logging_mixin.py:190} INFO - [OK] Validação da Bronze de order_products_train concluída com sucesso.
+[2026-06-01T14:17:41.310+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-01T14:17:41.326+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-01T14:17:41.326+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_validate_bronze_order_products_train, task_id=validate_bronze_order_products_train, run_id=manual__2026-06-01T14:17:37.611963+00:00, execution_date=20260601T141737, start_date=20260601T141739, end_date=20260601T141741
+[2026-06-01T14:17:41.452+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-01T14:17:41.475+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-01T14:17:41.500+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
