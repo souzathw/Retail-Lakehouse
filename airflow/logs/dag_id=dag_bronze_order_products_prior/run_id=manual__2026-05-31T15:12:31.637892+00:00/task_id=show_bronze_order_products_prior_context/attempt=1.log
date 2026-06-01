@@ -1,0 +1,25 @@
+[2026-05-31T15:12:33.837+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-31T15:12:33.862+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_bronze_order_products_prior.show_bronze_order_products_prior_context manual__2026-05-31T15:12:31.637892+00:00 [queued]>
+[2026-05-31T15:12:33.873+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_bronze_order_products_prior.show_bronze_order_products_prior_context manual__2026-05-31T15:12:31.637892+00:00 [queued]>
+[2026-05-31T15:12:33.873+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-05-31T15:12:33.887+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): show_bronze_order_products_prior_context> on 2026-05-31 15:12:31.637892+00:00
+[2026-05-31T15:12:33.896+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_bronze_order_products_prior', 'show_bronze_order_products_prior_context', 'manual__2026-05-31T15:12:31.637892+00:00', '--job-id', '130', '--raw', '--subdir', 'DAGS_FOLDER/dag_bronze_order_products_prior.py', '--cfg-path', '/tmp/tmpecrcoakh']
+[2026-05-31T15:12:33.898+0000] {standard_task_runner.py:105} INFO - Job 130: Subtask show_bronze_order_products_prior_context
+[2026-05-31T15:12:33.899+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=481) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-05-31T15:12:33.900+0000] {standard_task_runner.py:72} INFO - Started process 482 to run task
+[2026-05-31T15:12:33.956+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_bronze_order_products_prior.show_bronze_order_products_prior_context manual__2026-05-31T15:12:31.637892+00:00 [running]> on host 71f672a92783
+[2026-05-31T15:12:34.148+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_bronze_order_products_prior' AIRFLOW_CTX_TASK_ID='show_bronze_order_products_prior_context' AIRFLOW_CTX_EXECUTION_DATE='2026-05-31T15:12:31.637892+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-31T15:12:31.637892+00:00'
+[2026-05-31T15:12:34.149+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-31T15:12:34.189+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-05-31T15:12:34.189+0000] {logging_mixin.py:190} INFO - Retail Lakehouse - Contexto Bronze order_products_prior
+[2026-05-31T15:12:34.189+0000] {logging_mixin.py:190} INFO - LOCAL_RAW_DIR=./data/raw
+[2026-05-31T15:12:34.189+0000] {logging_mixin.py:190} INFO - LOCAL_BRONZE_DIR=./data/bronze
+[2026-05-31T15:12:34.190+0000] {logging_mixin.py:190} INFO - Objetivo: transformar raw de order_products_prior em Bronze Parquet
+[2026-05-31T15:12:34.190+0000] {logging_mixin.py:190} INFO - Execução real do job: container Spark
+[2026-05-31T15:12:34.190+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-05-31T15:12:34.190+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-31T15:12:34.202+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-31T15:12:34.203+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_bronze_order_products_prior, task_id=show_bronze_order_products_prior_context, run_id=manual__2026-05-31T15:12:31.637892+00:00, execution_date=20260531T151231, start_date=20260531T151233, end_date=20260531T151234
+[2026-05-31T15:12:34.278+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-31T15:12:34.314+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-31T15:12:34.405+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
