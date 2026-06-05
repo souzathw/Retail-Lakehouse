@@ -1,0 +1,134 @@
+[2026-06-05T12:34:25.856+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-05T12:34:25.882+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_silver_orders_clean.run_silver_orders_clean manual__2026-06-05T12:34:22.537002+00:00 [queued]>
+[2026-06-05T12:34:25.893+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_silver_orders_clean.run_silver_orders_clean manual__2026-06-05T12:34:22.537002+00:00 [queued]>
+[2026-06-05T12:34:25.893+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-05T12:34:25.912+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): run_silver_orders_clean> on 2026-06-05 12:34:22.537002+00:00
+[2026-06-05T12:34:25.922+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_silver_orders_clean', 'run_silver_orders_clean', 'manual__2026-06-05T12:34:22.537002+00:00', '--job-id', '155', '--raw', '--subdir', 'DAGS_FOLDER/dag_silver_orders_clean.py', '--cfg-path', '/tmp/tmpa00r96l2']
+[2026-06-05T12:34:25.924+0000] {standard_task_runner.py:105} INFO - Job 155: Subtask run_silver_orders_clean
+[2026-06-05T12:34:25.925+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=905) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-05T12:34:25.926+0000] {standard_task_runner.py:72} INFO - Started process 906 to run task
+[2026-06-05T12:34:25.983+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_silver_orders_clean.run_silver_orders_clean manual__2026-06-05T12:34:22.537002+00:00 [running]> on host 59de2933a3c2
+[2026-06-05T12:34:26.083+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_silver_orders_clean' AIRFLOW_CTX_TASK_ID='run_silver_orders_clean' AIRFLOW_CTX_EXECUTION_DATE='2026-06-05T12:34:22.537002+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-05T12:34:22.537002+00:00'
+[2026-06-05T12:34:26.083+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-05T12:34:26.098+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-06-05T12:34:26.099+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'docker exec retail_lakehouse_spark /opt/spark/bin/spark-submit --master local[*] /opt/spark-apps/jobs/silver/silver_orders_clean.py']
+[2026-06-05T12:34:26.111+0000] {subprocess.py:99} INFO - Output:
+[2026-06-05T12:34:29.953+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:29.953+0000] {subprocess.py:106} INFO - Retail Lakehouse - Silver de orders_clean
+[2026-06-05T12:34:29.954+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:30.035+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkContext: Running Spark version 3.5.1
+[2026-06-05T12:34:30.037+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkContext: OS info Linux, 6.17.9-76061709-generic, amd64
+[2026-06-05T12:34:30.038+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkContext: Java version 11.0.22
+[2026-06-05T12:34:30.132+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-06-05T12:34:30.247+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO ResourceUtils: ==============================================================
+[2026-06-05T12:34:30.247+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-06-05T12:34:30.248+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO ResourceUtils: ==============================================================
+[2026-06-05T12:34:30.248+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkContext: Submitted application: retail-lakehouse-silver-orders-clean
+[2026-06-05T12:34:30.281+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-06-05T12:34:30.294+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO ResourceProfile: Limiting resource is cpu
+[2026-06-05T12:34:30.296+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-06-05T12:34:30.388+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SecurityManager: Changing view acls to: spark
+[2026-06-05T12:34:30.391+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SecurityManager: Changing modify acls to: spark
+[2026-06-05T12:34:30.391+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SecurityManager: Changing view acls groups to:
+[2026-06-05T12:34:30.391+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SecurityManager: Changing modify acls groups to:
+[2026-06-05T12:34:30.392+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+[2026-06-05T12:34:30.713+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO Utils: Successfully started service 'sparkDriver' on port 36015.
+[2026-06-05T12:34:30.761+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkEnv: Registering MapOutputTracker
+[2026-06-05T12:34:30.815+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkEnv: Registering BlockManagerMaster
+[2026-06-05T12:34:30.847+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-06-05T12:34:30.849+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-06-05T12:34:30.856+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-06-05T12:34:30.898+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-3970310d-3180-46ca-9cff-2ef1b81ee61a
+[2026-06-05T12:34:30.919+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2026-06-05T12:34:30.940+0000] {subprocess.py:106} INFO - 26/06/05 12:34:30 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-06-05T12:34:31.135+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-06-05T12:34:31.242+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-06-05T12:34:31.375+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Executor: Starting executor ID driver on host 2900076b1352
+[2026-06-05T12:34:31.375+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Executor: OS info Linux, 6.17.9-76061709-generic, amd64
+[2026-06-05T12:34:31.376+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Executor: Java version 11.0.22
+[2026-06-05T12:34:31.387+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2026-06-05T12:34:31.388+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@5edf522 for default.
+[2026-06-05T12:34:31.414+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44147.
+[2026-06-05T12:34:31.414+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO NettyBlockTransferService: Server created on 2900076b1352:44147
+[2026-06-05T12:34:31.417+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-06-05T12:34:31.426+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 2900076b1352, 44147, None)
+[2026-06-05T12:34:31.430+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO BlockManagerMasterEndpoint: Registering block manager 2900076b1352:44147 with 434.4 MiB RAM, BlockManagerId(driver, 2900076b1352, 44147, None)
+[2026-06-05T12:34:31.433+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 2900076b1352, 44147, None)
+[2026-06-05T12:34:31.434+0000] {subprocess.py:106} INFO - 26/06/05 12:34:31 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 2900076b1352, 44147, None)
+[2026-06-05T12:34:31.904+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:31.905+0000] {subprocess.py:106} INFO - Leitura da Bronze de orders
+[2026-06-05T12:34:31.905+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:31.905+0000] {subprocess.py:106} INFO - Diretório de entrada: /data/bronze/instacart/orders/ingestion_date=2026-04-15
+[2026-06-05T12:34:35.996+0000] {subprocess.py:106} INFO - Schema da Bronze de orders:
+[2026-06-05T12:34:36.016+0000] {subprocess.py:106} INFO - root
+[2026-06-05T12:34:36.016+0000] {subprocess.py:106} INFO -  |-- order_id: integer (nullable = true)
+[2026-06-05T12:34:36.016+0000] {subprocess.py:106} INFO -  |-- user_id: integer (nullable = true)
+[2026-06-05T12:34:36.017+0000] {subprocess.py:106} INFO -  |-- eval_set: string (nullable = true)
+[2026-06-05T12:34:36.017+0000] {subprocess.py:106} INFO -  |-- order_number: integer (nullable = true)
+[2026-06-05T12:34:36.017+0000] {subprocess.py:106} INFO -  |-- order_dow: integer (nullable = true)
+[2026-06-05T12:34:36.017+0000] {subprocess.py:106} INFO -  |-- order_hour_of_day: integer (nullable = true)
+[2026-06-05T12:34:36.017+0000] {subprocess.py:106} INFO -  |-- days_since_prior_order: double (nullable = true)
+[2026-06-05T12:34:36.018+0000] {subprocess.py:106} INFO -  |-- source_file_name: string (nullable = true)
+[2026-06-05T12:34:36.018+0000] {subprocess.py:106} INFO -  |-- raw_ingestion_date: string (nullable = true)
+[2026-06-05T12:34:36.018+0000] {subprocess.py:106} INFO -  |-- bronze_processed_at: timestamp (nullable = true)
+[2026-06-05T12:34:36.018+0000] {subprocess.py:106} INFO - 
+[2026-06-05T12:34:36.018+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:36.018+0000] {subprocess.py:106} INFO - Transformação Silver de orders_clean
+[2026-06-05T12:34:36.019+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:36.532+0000] {subprocess.py:106} INFO - Schema após transformação Silver:
+[2026-06-05T12:34:36.534+0000] {subprocess.py:106} INFO - root
+[2026-06-05T12:34:36.534+0000] {subprocess.py:106} INFO -  |-- order_id: integer (nullable = true)
+[2026-06-05T12:34:36.536+0000] {subprocess.py:106} INFO -  |-- user_id: integer (nullable = true)
+[2026-06-05T12:34:36.537+0000] {subprocess.py:106} INFO -  |-- eval_set: string (nullable = true)
+[2026-06-05T12:34:36.537+0000] {subprocess.py:106} INFO -  |-- order_number: integer (nullable = true)
+[2026-06-05T12:34:36.537+0000] {subprocess.py:106} INFO -  |-- order_dow: integer (nullable = true)
+[2026-06-05T12:34:36.537+0000] {subprocess.py:106} INFO -  |-- order_hour_of_day: integer (nullable = true)
+[2026-06-05T12:34:36.538+0000] {subprocess.py:106} INFO -  |-- days_since_prior_order: double (nullable = true)
+[2026-06-05T12:34:36.538+0000] {subprocess.py:106} INFO -  |-- bronze_raw_ingestion_date: string (nullable = true)
+[2026-06-05T12:34:36.538+0000] {subprocess.py:106} INFO -  |-- is_first_order: boolean (nullable = false)
+[2026-06-05T12:34:36.538+0000] {subprocess.py:106} INFO -  |-- silver_processed_at: timestamp (nullable = false)
+[2026-06-05T12:34:36.538+0000] {subprocess.py:106} INFO - 
+[2026-06-05T12:34:36.538+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:36.539+0000] {subprocess.py:106} INFO - Escrita da Silver de orders_clean
+[2026-06-05T12:34:36.539+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:36.539+0000] {subprocess.py:106} INFO - Diretório de saída: /data/silver/instacart/orders_clean/ingestion_date=2026-04-15
+[2026-06-05T12:34:53.264+0000] {subprocess.py:106} INFO - [OK] Silver de orders_clean escrita com sucesso em Parquet.
+[2026-06-05T12:34:53.264+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:53.264+0000] {subprocess.py:106} INFO - Resumo da Silver de orders_clean
+[2026-06-05T12:34:53.265+0000] {subprocess.py:106} INFO - ==================================================
+[2026-06-05T12:34:57.389+0000] {subprocess.py:106} INFO - Total de registros: 3421083
+[2026-06-05T12:34:57.394+0000] {subprocess.py:106} INFO - Diretório final: /data/silver/instacart/orders_clean/ingestion_date=2026-04-15
+[2026-06-05T12:34:57.394+0000] {subprocess.py:106} INFO - Prévia dos dados:
+[2026-06-05T12:35:05.658+0000] {subprocess.py:106} INFO - +--------+-------+--------+------------+---------+-----------------+----------------------+-------------------------+--------------+--------------------------+
+[2026-06-05T12:35:05.659+0000] {subprocess.py:106} INFO - |order_id|user_id|eval_set|order_number|order_dow|order_hour_of_day|days_since_prior_order|bronze_raw_ingestion_date|is_first_order|silver_processed_at       |
+[2026-06-05T12:35:05.659+0000] {subprocess.py:106} INFO - +--------+-------+--------+------------+---------+-----------------+----------------------+-------------------------+--------------+--------------------------+
+[2026-06-05T12:35:05.659+0000] {subprocess.py:106} INFO - |1       |112108 |train   |4           |4        |10               |9.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.659+0000] {subprocess.py:106} INFO - |12      |152610 |prior   |22          |6        |8                |10.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.659+0000] {subprocess.py:106} INFO - |13      |45082  |prior   |2           |6        |17               |1.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.659+0000] {subprocess.py:106} INFO - |22      |30822  |prior   |25          |1        |8                |12.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.660+0000] {subprocess.py:106} INFO - |26      |153404 |prior   |2           |0        |16               |7.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.660+0000] {subprocess.py:106} INFO - |27      |129389 |prior   |16          |6        |20               |14.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.660+0000] {subprocess.py:106} INFO - |28      |98256  |prior   |29          |3        |13               |6.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.660+0000] {subprocess.py:106} INFO - |31      |201744 |prior   |7           |6        |15               |14.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.660+0000] {subprocess.py:106} INFO - |34      |35220  |test    |20          |3        |11               |8.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.660+0000] {subprocess.py:106} INFO - |44      |183833 |prior   |3           |6        |17               |1.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.661+0000] {subprocess.py:106} INFO - |47      |191597 |prior   |6           |5        |0                |15.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.661+0000] {subprocess.py:106} INFO - |52      |27498  |prior   |18          |3        |10               |1.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.661+0000] {subprocess.py:106} INFO - |53      |87889  |prior   |5           |4        |20               |3.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.661+0000] {subprocess.py:106} INFO - |65      |26599  |prior   |9           |2        |10               |11.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.661+0000] {subprocess.py:106} INFO - |76      |75136  |prior   |5           |1        |19               |30.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.662+0000] {subprocess.py:106} INFO - |78      |96511  |prior   |3           |2        |15               |15.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.662+0000] {subprocess.py:106} INFO - |81      |186444 |prior   |15          |4        |14               |9.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.662+0000] {subprocess.py:106} INFO - |85      |4041   |prior   |25          |5        |11               |7.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.662+0000] {subprocess.py:106} INFO - |91      |5189   |prior   |54          |0        |14               |3.0                   |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.662+0000] {subprocess.py:106} INFO - |93      |130239 |prior   |15          |6        |10               |19.0                  |2026-04-15               |false         |2026-06-05 12:34:57.475552|
+[2026-06-05T12:35:05.663+0000] {subprocess.py:106} INFO - +--------+-------+--------+------------+---------+-----------------+----------------------+-------------------------+--------------+--------------------------+
+[2026-06-05T12:35:05.663+0000] {subprocess.py:106} INFO - only showing top 20 rows
+[2026-06-05T12:35:05.663+0000] {subprocess.py:106} INFO - 
+[2026-06-05T12:35:05.664+0000] {subprocess.py:106} INFO - [OK] Job Silver de orders_clean concluído com sucesso.
+[2026-06-05T12:35:06.104+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-06-05T12:35:06.164+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-05T12:35:06.165+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_silver_orders_clean, task_id=run_silver_orders_clean, run_id=manual__2026-06-05T12:34:22.537002+00:00, execution_date=20260605T123422, start_date=20260605T123425, end_date=20260605T123506
+[2026-06-05T12:35:06.275+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-05T12:35:06.302+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-05T12:35:06.315+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
