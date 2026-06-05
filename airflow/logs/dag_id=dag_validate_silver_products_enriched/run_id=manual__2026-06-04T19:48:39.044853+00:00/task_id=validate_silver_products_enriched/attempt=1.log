@@ -1,0 +1,67 @@
+[2026-06-04T19:48:42.490+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-04T19:48:42.517+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_validate_silver_products_enriched.validate_silver_products_enriched manual__2026-06-04T19:48:39.044853+00:00 [queued]>
+[2026-06-04T19:48:42.527+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_validate_silver_products_enriched.validate_silver_products_enriched manual__2026-06-04T19:48:39.044853+00:00 [queued]>
+[2026-06-04T19:48:42.527+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-04T19:48:42.568+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): validate_silver_products_enriched> on 2026-06-04 19:48:39.044853+00:00
+[2026-06-04T19:48:42.576+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_validate_silver_products_enriched', 'validate_silver_products_enriched', 'manual__2026-06-04T19:48:39.044853+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/dag_validate_silver_products_enriched.py', '--cfg-path', '/tmp/tmpl3j619wo']
+[2026-06-04T19:48:42.578+0000] {standard_task_runner.py:105} INFO - Job 151: Subtask validate_silver_products_enriched
+[2026-06-04T19:48:42.579+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1547) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-04T19:48:42.579+0000] {standard_task_runner.py:72} INFO - Started process 1548 to run task
+[2026-06-04T19:48:42.628+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_validate_silver_products_enriched.validate_silver_products_enriched manual__2026-06-04T19:48:39.044853+00:00 [running]> on host 71f672a92783
+[2026-06-04T19:48:42.740+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_validate_silver_products_enriched' AIRFLOW_CTX_TASK_ID='validate_silver_products_enriched' AIRFLOW_CTX_EXECUTION_DATE='2026-06-04T19:48:39.044853+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-04T19:48:39.044853+00:00'
+[2026-06-04T19:48:42.741+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-04T19:48:43.006+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-04T19:48:43.007+0000] {logging_mixin.py:190} INFO - Retail Lakehouse - Validação Silver products_enriched
+[2026-06-04T19:48:43.007+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-04T19:48:43.008+0000] {logging_mixin.py:190} INFO - Diretório base Silver: /opt/***/data/silver
+[2026-06-04T19:48:43.008+0000] {logging_mixin.py:190} INFO - Partição Silver usada: /opt/***/data/silver/instacart/products_enriched/ingestion_date=2026-04-15
+[2026-06-04T19:48:43.008+0000] {logging_mixin.py:190} INFO - Arquivos Parquet encontrados: ['part-00000-562d48f2-446c-4c9a-bd38-57d4d9480a24-c000.snappy.parquet']
+[2026-06-04T19:48:43.795+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-04T19:48:43.795+0000] {logging_mixin.py:190} INFO - Resultado da validação Silver products_enriched
+[2026-06-04T19:48:43.795+0000] {logging_mixin.py:190} INFO - ==================================================
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - Total de linhas: 49688
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - Colunas encontradas: ['product_id', 'product_name', 'aisle_id', 'aisle', 'department_id', 'department', 'bronze_raw_ingestion_date', 'silver_processed_at']
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - Colunas esperadas: ['product_id', 'product_name', 'aisle_id', 'aisle', 'department_id', 'department', 'bronze_raw_ingestion_date', 'silver_processed_at']
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - Colunas ausentes: []
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - Colunas inesperadas: []
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - Schema Arrow:
+[2026-06-04T19:48:43.796+0000] {logging_mixin.py:190} INFO - product_id: int32
+product_name: string
+aisle_id: int32
+aisle: string
+department_id: int32
+department: string
+bronze_raw_ingestion_date: string
+silver_processed_at: timestamp[ns] not null
+-- schema metadata --
+org.apache.spark.version: '3.5.1'
+org.apache.spark.sql.parquet.row.metadata: '{"type":"struct","fields":[{"' + 572
+[2026-06-04T19:48:43.797+0000] {logging_mixin.py:190} INFO - Prévia dos dados:
+[2026-06-04T19:48:43.812+0000] {logging_mixin.py:190} INFO -  product_id                                                      product_name  aisle_id                         aisle  department_id      department bronze_raw_ingestion_date        silver_processed_at
+          1                                        Chocolate Sandwich Cookies        61                 cookies cakes             19          snacks                2026-04-15 2026-06-04 19:47:13.399796
+          2                                                  All-Seasons Salt       104             spices seasonings             13          pantry                2026-04-15 2026-06-04 19:47:13.399796
+          3                              Robust Golden Unsweetened Oolong Tea        94                           tea              7       beverages                2026-04-15 2026-06-04 19:47:13.399796
+          4 Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce        38                  frozen meals              1          frozen                2026-04-15 2026-06-04 19:47:13.399796
+          5                                         Green Chile Anytime Sauce         5    marinades meat preparation             13          pantry                2026-04-15 2026-06-04 19:47:13.399796
+          6                                                      Dry Nose Oil        11              cold flu allergy             11   personal care                2026-04-15 2026-06-04 19:47:13.399796
+          7                                    Pure Coconut Water With Orange        98                 juice nectars              7       beverages                2026-04-15 2026-06-04 19:47:13.399796
+          8                                 Cut Russet Potatoes Steam N' Mash       116                frozen produce              1          frozen                2026-04-15 2026-06-04 19:47:13.399796
+          9                                 Light Strawberry Blueberry Yogurt       120                        yogurt             16      dairy eggs                2026-04-15 2026-06-04 19:47:13.399796
+         10                    Sparkling Orange Juice & Prickly Pear Beverage       115 water seltzer sparkling water              7       beverages                2026-04-15 2026-06-04 19:47:13.399796
+         11                                                 Peach Mango Juice        31                  refrigerated              7       beverages                2026-04-15 2026-06-04 19:47:13.399796
+         12                                        Chocolate Fudge Layer Cake       119                frozen dessert              1          frozen                2026-04-15 2026-06-04 19:47:13.399796
+         13                                                 Saline Nasal Mist        11              cold flu allergy             11   personal care                2026-04-15 2026-06-04 19:47:13.399796
+         14                                    Fresh Scent Dishwasher Cleaner        74               dish detergents             17       household                2026-04-15 2026-06-04 19:47:13.399796
+         15                                          Overnight Diapers Size 6        56                 diapers wipes             18          babies                2026-04-15 2026-06-04 19:47:13.399796
+         16                                     Mint Chocolate Flavored Syrup       103            ice cream toppings             19          snacks                2026-04-15 2026-06-04 19:47:13.399796
+         17                                                 Rendered Duck Fat        35               poultry counter             12    meat seafood                2026-04-15 2026-06-04 19:47:13.399796
+         18                               Pizza for One Suprema  Frozen Pizza        79                  frozen pizza              1          frozen                2026-04-15 2026-06-04 19:47:13.399796
+         19                  Gluten Free Quinoa Three Cheese & Mushroom Blend        63       grains rice dried goods              9 dry goods pasta                2026-04-15 2026-06-04 19:47:13.399796
+         20                    Pomegranate Cranberry & Aloe Vera Enrich Drink        98                 juice nectars              7       beverages                2026-04-15 2026-06-04 19:47:13.399796
+[2026-06-04T19:48:43.812+0000] {logging_mixin.py:190} INFO - [OK] Validação da Silver de products_enriched concluída com sucesso.
+[2026-06-04T19:48:43.813+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-04T19:48:43.825+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-04T19:48:43.825+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_validate_silver_products_enriched, task_id=validate_silver_products_enriched, run_id=manual__2026-06-04T19:48:39.044853+00:00, execution_date=20260604T194839, start_date=20260604T194842, end_date=20260604T194843
+[2026-06-04T19:48:43.876+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-04T19:48:43.929+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-04T19:48:43.972+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
