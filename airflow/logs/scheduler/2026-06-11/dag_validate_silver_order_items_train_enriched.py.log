@@ -1,0 +1,526 @@
+[2026-06-11T23:22:46.203+0000] {processor.py:186} INFO - Started process (PID=69956) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:22:46.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:22:46.206+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:22:46.304+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:22:46.496+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.496+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.507+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.506+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.515+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.514+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.524+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.523+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.531+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.531+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.540+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.539+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.548+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.548+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.549+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:22:46.567+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.567+0000] {dag.py:3262} INFO - Creating ORM DAG for dag_validate_silver_order_items_train_enriched
+[2026-06-11T23:22:46.569+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:22:46.569+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:22:46.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.398 seconds
+[2026-06-11T23:23:17.575+0000] {processor.py:186} INFO - Started process (PID=70089) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:23:17.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:23:17.605+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:23:17.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:23:17.616+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:23:17.655+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:23:17.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:23:17.674+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:23:17.673+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:23:17.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.139 seconds
+[2026-06-11T23:23:48.132+0000] {processor.py:186} INFO - Started process (PID=70209) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:23:48.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:23:48.139+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:23:48.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:23:48.155+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:23:48.206+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:23:48.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:23:48.226+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:23:48.226+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:23:48.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.206 seconds
+[2026-06-11T23:24:18.618+0000] {processor.py:186} INFO - Started process (PID=70329) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:24:18.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:24:18.626+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:24:18.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:24:18.640+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:24:18.677+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:24:18.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:24:18.695+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:24:18.694+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:24:18.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.126 seconds
+[2026-06-11T23:24:48.841+0000] {processor.py:186} INFO - Started process (PID=70449) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:24:48.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:24:48.855+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:24:48.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:24:48.863+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:24:48.896+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:24:48.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:24:48.914+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:24:48.913+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:24:48.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.102 seconds
+[2026-06-11T23:25:19.204+0000] {processor.py:186} INFO - Started process (PID=70569) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:25:19.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:25:19.229+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:25:19.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:25:19.239+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:25:19.282+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:25:19.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:25:19.298+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:25:19.298+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:25:19.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.123 seconds
+[2026-06-11T23:25:49.690+0000] {processor.py:186} INFO - Started process (PID=70689) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:25:49.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:25:49.713+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:25:49.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:25:49.734+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:25:49.772+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:25:49.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:25:49.789+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:25:49.789+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:25:49.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.150 seconds
+[2026-06-11T23:26:20.192+0000] {processor.py:186} INFO - Started process (PID=70824) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:26:20.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:26:20.195+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:26:20.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:26:20.204+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:26:20.238+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:26:20.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:26:20.256+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:26:20.256+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:26:20.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.225 seconds
+[2026-06-11T23:26:50.744+0000] {processor.py:186} INFO - Started process (PID=70944) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:26:50.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:26:50.750+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:26:50.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:26:50.768+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:26:50.802+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:26:50.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:26:50.819+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:26:50.818+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:26:50.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.105 seconds
+[2026-06-11T23:27:21.800+0000] {processor.py:186} INFO - Started process (PID=71079) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:27:21.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:27:21.805+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:27:21.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:27:21.815+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:27:21.848+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:27:21.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:27:21.867+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:27:21.867+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:27:21.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.097 seconds
+[2026-06-11T23:27:52.169+0000] {processor.py:186} INFO - Started process (PID=71199) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:27:52.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:27:52.173+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:27:52.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:27:52.181+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:27:52.213+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:27:52.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:27:52.232+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:27:52.231+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:27:52.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.088 seconds
+[2026-06-11T23:28:23.075+0000] {processor.py:186} INFO - Started process (PID=71319) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:28:23.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:28:23.079+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:28:23.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:28:23.087+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:28:23.124+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:28:23.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:28:23.141+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:28:23.141+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:28:23.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.109 seconds
+[2026-06-11T23:28:53.998+0000] {processor.py:186} INFO - Started process (PID=71439) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:28:54.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:28:54.002+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:28:54.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:28:54.021+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:28:54.067+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:28:54.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:28:54.097+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:28:54.096+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:28:54.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.154 seconds
+[2026-06-11T23:29:24.869+0000] {processor.py:186} INFO - Started process (PID=71559) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:29:24.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:29:24.890+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:29:24.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:29:24.896+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:29:24.929+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:29:24.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:29:24.944+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:29:24.943+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:29:24.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.102 seconds
+[2026-06-11T23:29:55.840+0000] {processor.py:186} INFO - Started process (PID=71679) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:29:55.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:29:55.868+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:29:55.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:29:55.876+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:29:55.905+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:29:55.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:29:55.919+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:29:55.919+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:29:55.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.112 seconds
+[2026-06-11T23:30:26.661+0000] {processor.py:186} INFO - Started process (PID=71799) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:30:26.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:30:26.684+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:30:26.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:30:26.693+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:30:26.731+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:30:26.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:30:26.748+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:30:26.748+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:30:26.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.127 seconds
+[2026-06-11T23:30:56.939+0000] {processor.py:186} INFO - Started process (PID=71919) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:30:56.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:30:56.965+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:30:56.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:30:56.974+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:30:57.009+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:30:57.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:30:57.025+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:30:57.024+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:30:57.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.119 seconds
+[2026-06-11T23:31:27.240+0000] {processor.py:186} INFO - Started process (PID=72039) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:31:27.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:31:27.267+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:31:27.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:31:27.275+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:31:27.307+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:31:27.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:31:27.322+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:31:27.322+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:31:27.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.108 seconds
+[2026-06-11T23:31:57.884+0000] {processor.py:186} INFO - Started process (PID=72159) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:31:57.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:31:57.913+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:31:57.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:31:57.921+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:31:57.954+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:31:57.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:31:57.969+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:31:57.968+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:31:57.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.114 seconds
+[2026-06-11T23:32:28.623+0000] {processor.py:186} INFO - Started process (PID=72279) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:32:28.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:32:28.653+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:32:28.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:32:28.662+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:32:28.702+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:32:28.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:32:28.721+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:32:28.721+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:32:28.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.132 seconds
+[2026-06-11T23:32:59.383+0000] {processor.py:186} INFO - Started process (PID=72399) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:32:59.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:32:59.393+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:32:59.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:32:59.402+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:32:59.433+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:32:59.433+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:32:59.448+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:32:59.448+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:32:59.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.094 seconds
+[2026-06-11T23:33:30.227+0000] {processor.py:186} INFO - Started process (PID=72519) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:33:30.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:33:30.230+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:33:30.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:33:30.240+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:33:30.277+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:33:30.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:33:30.296+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:33:30.296+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:33:30.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.107 seconds
+[2026-06-11T23:34:01.353+0000] {processor.py:186} INFO - Started process (PID=72639) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:34:01.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:34:01.368+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:34:01.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:34:01.376+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:34:01.409+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:34:01.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:34:01.424+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:34:01.424+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:34:01.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.417 seconds
+[2026-06-11T23:34:32.565+0000] {processor.py:186} INFO - Started process (PID=72764) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:34:32.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:34:32.586+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:34:32.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:34:32.597+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:34:32.644+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:34:32.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:34:32.660+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:34:32.660+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:34:32.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.145 seconds
+[2026-06-11T23:35:02.917+0000] {processor.py:186} INFO - Started process (PID=72884) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:35:02.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:35:02.922+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:35:02.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:35:02.934+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:35:02.965+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:35:02.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:35:02.980+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:35:02.980+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:35:03.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.116 seconds
+[2026-06-11T23:35:33.161+0000] {processor.py:186} INFO - Started process (PID=73004) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:35:33.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:35:33.186+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:35:33.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:35:33.196+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:35:33.227+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:35:33.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:35:33.242+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:35:33.242+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:35:33.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.115 seconds
+[2026-06-11T23:36:03.458+0000] {processor.py:186} INFO - Started process (PID=73124) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:36:03.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:36:03.486+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:36:03.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:36:03.498+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:36:03.533+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:36:03.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:36:03.549+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:36:03.549+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:36:03.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.125 seconds
+[2026-06-11T23:36:33.655+0000] {processor.py:186} INFO - Started process (PID=73244) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:36:33.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:36:33.657+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:36:33.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:36:33.664+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:36:33.694+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:36:33.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:36:33.708+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:36:33.708+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:36:33.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.084 seconds
+[2026-06-11T23:37:03.765+0000] {processor.py:186} INFO - Started process (PID=73362) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:37:03.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:37:03.768+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:37:03.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:37:03.776+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:37:03.807+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:37:03.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:37:03.823+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:37:03.823+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:37:03.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.084 seconds
+[2026-06-11T23:37:34.616+0000] {processor.py:186} INFO - Started process (PID=73479) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:37:34.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:37:34.636+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:37:34.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:37:34.650+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:37:34.714+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:37:34.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:37:34.737+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:37:34.737+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:37:34.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.154 seconds
+[2026-06-11T23:38:05.652+0000] {processor.py:186} INFO - Started process (PID=73599) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:38:05.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:38:05.681+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:38:05.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:38:05.704+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:38:05.751+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:38:05.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:38:05.769+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:38:05.769+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:38:05.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.162 seconds
+[2026-06-11T23:38:35.887+0000] {processor.py:186} INFO - Started process (PID=73719) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:38:35.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:38:35.912+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:38:35.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:38:35.921+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:38:35.956+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:38:35.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:38:35.972+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:38:35.972+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:38:35.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.119 seconds
+[2026-06-11T23:39:07.033+0000] {processor.py:186} INFO - Started process (PID=73839) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:39:07.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:39:07.038+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:39:07.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:39:07.048+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:39:07.084+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:39:07.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:39:07.101+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:39:07.100+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:39:07.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.097 seconds
+[2026-06-11T23:39:37.952+0000] {processor.py:186} INFO - Started process (PID=73959) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:39:37.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:39:37.969+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:39:37.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:39:37.976+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:39:38.011+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:39:38.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:39:38.027+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:39:38.027+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:39:38.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.107 seconds
+[2026-06-11T23:40:08.989+0000] {processor.py:186} INFO - Started process (PID=74079) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:40:09.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:40:09.014+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:40:09.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:40:09.028+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:40:09.092+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:40:09.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:40:09.119+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:40:09.118+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:40:09.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.169 seconds
+[2026-06-11T23:40:39.200+0000] {processor.py:186} INFO - Started process (PID=74202) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:40:39.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:40:39.207+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:40:39.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:40:39.214+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:40:39.245+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:40:39.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:40:39.260+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:40:39.260+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:40:39.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.087 seconds
+[2026-06-11T23:41:09.364+0000] {processor.py:186} INFO - Started process (PID=74319) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:41:09.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:41:09.391+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:41:09.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:41:09.404+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:41:09.457+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:41:09.457+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:41:09.480+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:41:09.479+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:41:09.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.168 seconds
+[2026-06-11T23:41:40.234+0000] {processor.py:186} INFO - Started process (PID=74439) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:41:40.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:41:40.255+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:41:40.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:41:40.278+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:41:40.323+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:41:40.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:41:40.344+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:41:40.344+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:41:40.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.155 seconds
+[2026-06-11T23:42:10.456+0000] {processor.py:186} INFO - Started process (PID=74559) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:42:10.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:42:10.479+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:42:10.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:42:10.497+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:42:10.542+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:42:10.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:42:10.564+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:42:10.564+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:42:10.588+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.149 seconds
+[2026-06-11T23:42:40.742+0000] {processor.py:186} INFO - Started process (PID=74679) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:42:40.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:42:40.773+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:42:40.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:42:40.792+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:42:40.872+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:42:40.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:42:40.898+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:42:40.898+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:42:40.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.200 seconds
+[2026-06-11T23:43:11.084+0000] {processor.py:186} INFO - Started process (PID=74799) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:43:11.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:43:11.114+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:43:11.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:43:11.137+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:43:11.213+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:43:11.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:43:11.238+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:43:11.238+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:43:11.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.199 seconds
+[2026-06-11T23:43:41.514+0000] {processor.py:186} INFO - Started process (PID=74919) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:43:41.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:43:41.523+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:43:41.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:43:41.531+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:43:41.565+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:43:41.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:43:41.580+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:43:41.580+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:43:41.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.097 seconds
+[2026-06-11T23:44:11.706+0000] {processor.py:186} INFO - Started process (PID=75039) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:44:11.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:44:11.718+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:44:11.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:44:11.725+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:44:11.756+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:44:11.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:44:11.772+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:44:11.772+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:44:11.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.097 seconds
+[2026-06-11T23:44:41.834+0000] {processor.py:186} INFO - Started process (PID=75159) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:44:41.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:44:41.848+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:44:41.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:44:41.858+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:44:41.896+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:44:41.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:44:41.913+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:44:41.913+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:44:41.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.122 seconds
+[2026-06-11T23:45:12.086+0000] {processor.py:186} INFO - Started process (PID=75279) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:45:12.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:45:12.104+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:45:12.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:45:12.121+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:45:12.160+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:45:12.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:45:12.176+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:45:12.176+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:45:12.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.139 seconds
+[2026-06-11T23:45:42.300+0000] {processor.py:186} INFO - Started process (PID=75399) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:45:42.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:45:42.327+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:45:42.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:45:42.346+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:45:42.391+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:45:42.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:45:42.411+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:45:42.411+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:45:42.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.176 seconds
+[2026-06-11T23:46:12.550+0000] {processor.py:186} INFO - Started process (PID=75519) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:46:12.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:46:12.560+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:46:12.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:46:12.571+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:46:12.604+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:46:12.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:46:12.618+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:46:12.618+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:46:12.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.096 seconds
+[2026-06-11T23:46:43.292+0000] {processor.py:186} INFO - Started process (PID=75639) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:46:43.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:46:43.305+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:46:43.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:46:43.318+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:46:43.352+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:46:43.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:46:43.370+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:46:43.369+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:46:43.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.118 seconds
+[2026-06-11T23:47:13.522+0000] {processor.py:186} INFO - Started process (PID=75759) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:47:13.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:47:13.527+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:47:13.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:47:13.538+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:47:13.571+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:47:13.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:47:13.586+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:47:13.586+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:47:13.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.106 seconds
+[2026-06-11T23:47:43.796+0000] {processor.py:186} INFO - Started process (PID=75879) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:47:43.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:47:43.803+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:47:43.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:47:43.812+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:47:43.849+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:47:43.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:47:43.867+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:47:43.867+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:47:43.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.105 seconds
+[2026-06-11T23:48:14.025+0000] {processor.py:186} INFO - Started process (PID=75999) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:48:14.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:48:14.032+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:48:14.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:48:14.040+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:48:14.083+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:48:14.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:48:14.106+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:48:14.106+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:48:14.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.115 seconds
+[2026-06-11T23:48:44.228+0000] {processor.py:186} INFO - Started process (PID=76119) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:48:44.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:48:44.241+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:48:44.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:48:44.249+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:48:44.281+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:48:44.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:48:44.298+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:48:44.298+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:48:44.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.100 seconds
+[2026-06-11T23:49:14.379+0000] {processor.py:186} INFO - Started process (PID=76239) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:49:14.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:49:14.402+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:49:14.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:49:14.411+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:49:14.444+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:49:14.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:49:14.458+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:49:14.458+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:49:14.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.105 seconds
+[2026-06-11T23:49:44.671+0000] {processor.py:186} INFO - Started process (PID=76359) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:49:44.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:49:44.771+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:49:44.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:49:44.784+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:49:44.815+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:49:44.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:49:44.829+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:49:44.829+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:49:44.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.290 seconds
+[2026-06-11T23:50:15.393+0000] {processor.py:186} INFO - Started process (PID=76479) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:50:15.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:50:15.414+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:50:15.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:50:15.421+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:50:15.451+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:50:15.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:50:15.465+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:50:15.465+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:50:15.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.109 seconds
+[2026-06-11T23:50:46.058+0000] {processor.py:186} INFO - Started process (PID=76599) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:50:46.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:50:46.070+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:50:46.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:50:46.077+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:50:46.107+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:50:46.107+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:50:46.122+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:50:46.121+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:50:46.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.093 seconds
+[2026-06-11T23:51:16.788+0000] {processor.py:186} INFO - Started process (PID=76719) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:51:16.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:51:16.808+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:51:16.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:51:16.815+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:51:16.845+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:51:16.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:51:16.860+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:51:16.860+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:51:16.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.102 seconds
+[2026-06-11T23:51:47.539+0000] {processor.py:186} INFO - Started process (PID=76839) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:51:47.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:51:47.543+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:51:47.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:51:47.550+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:51:47.580+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:51:47.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:51:47.595+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:51:47.595+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:51:47.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.099 seconds
+[2026-06-11T23:52:18.412+0000] {processor.py:186} INFO - Started process (PID=76959) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:52:18.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:52:18.419+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:52:18.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:52:18.426+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:52:18.457+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:52:18.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:52:18.471+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:52:18.471+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:52:18.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.087 seconds
+[2026-06-11T23:52:49.230+0000] {processor.py:186} INFO - Started process (PID=77079) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:52:49.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:52:49.242+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:52:49.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:52:49.251+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:52:49.282+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:52:49.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:52:49.297+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:52:49.296+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:52:49.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.099 seconds
+[2026-06-11T23:53:20.053+0000] {processor.py:186} INFO - Started process (PID=77199) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:53:20.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:53:20.069+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:53:20.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:53:20.076+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:53:20.106+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:53:20.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:53:20.121+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:53:20.121+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:53:20.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.109 seconds
+[2026-06-11T23:53:50.920+0000] {processor.py:186} INFO - Started process (PID=77319) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:53:50.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:53:50.939+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:53:50.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:53:50.946+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:53:50.976+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:53:50.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:53:50.991+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:53:50.991+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:53:51.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.100 seconds
+[2026-06-11T23:54:21.697+0000] {processor.py:186} INFO - Started process (PID=77439) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:54:21.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:54:21.703+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:54:21.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:54:21.711+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:54:21.740+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:54:21.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:54:21.755+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:54:21.755+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:54:21.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.085 seconds
+[2026-06-11T23:54:52.448+0000] {processor.py:186} INFO - Started process (PID=77559) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:54:52.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:54:52.452+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:54:52.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:54:52.459+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:54:52.491+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:54:52.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:54:52.506+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:54:52.506+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:54:52.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.093 seconds
+[2026-06-11T23:55:23.181+0000] {processor.py:186} INFO - Started process (PID=77679) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:55:23.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:55:23.199+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:55:23.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:55:23.206+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:55:23.238+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:55:23.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:55:23.253+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:55:23.253+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:55:23.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.103 seconds
+[2026-06-11T23:55:54.085+0000] {processor.py:186} INFO - Started process (PID=77799) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:55:54.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:55:54.090+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:55:54.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:55:54.098+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:55:54.130+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:55:54.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:55:54.144+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:55:54.144+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:55:54.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.087 seconds
+[2026-06-11T23:56:24.788+0000] {processor.py:186} INFO - Started process (PID=77919) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:56:24.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:56:24.802+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:56:24.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:56:24.813+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:56:24.856+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:56:24.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:56:24.880+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:56:24.880+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:56:24.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.140 seconds
+[2026-06-11T23:56:55.932+0000] {processor.py:186} INFO - Started process (PID=78039) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:56:55.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:56:55.958+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:56:55.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:56:55.978+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:56:56.012+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:56:56.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:56:56.026+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:56:56.025+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:56:56.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.126 seconds
+[2026-06-11T23:57:26.262+0000] {processor.py:186} INFO - Started process (PID=78164) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:57:26.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:57:26.298+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:57:26.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:57:26.307+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:57:26.341+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:57:26.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:57:26.357+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:57:26.356+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:57:26.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.160 seconds
+[2026-06-11T23:57:56.553+0000] {processor.py:186} INFO - Started process (PID=78284) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:57:56.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:57:56.557+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:57:56.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:57:56.564+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:57:56.594+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:57:56.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:57:56.609+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:57:56.608+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:57:56.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.096 seconds
+[2026-06-11T23:58:27.308+0000] {processor.py:186} INFO - Started process (PID=78399) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:58:27.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:58:27.319+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:58:27.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:58:27.325+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:58:27.356+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:58:27.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:58:27.371+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:58:27.371+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:58:27.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.094 seconds
+[2026-06-11T23:58:58.143+0000] {processor.py:186} INFO - Started process (PID=78519) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:58:58.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:58:58.165+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:58:58.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:58:58.177+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:58:58.208+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:58:58.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:58:58.223+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:58:58.222+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:58:58.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.114 seconds
+[2026-06-11T23:59:28.943+0000] {processor.py:186} INFO - Started process (PID=78639) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:59:28.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:59:28.961+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:59:28.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:59:28.969+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:59:29.003+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:59:29.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:59:29.018+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:59:29.018+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:59:29.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.107 seconds
+[2026-06-11T23:59:59.734+0000] {processor.py:186} INFO - Started process (PID=78759) to work on /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:59:59.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py for tasks to queue
+[2026-06-11T23:59:59.747+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:59:59.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:59:59.754+0000] {processor.py:925} INFO - DAG(s) 'dag_validate_silver_order_items_train_enriched' retrieved from /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py
+[2026-06-11T23:59:59.783+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:59:59.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-11T23:59:59.798+0000] {logging_mixin.py:190} INFO - [2026-06-11T23:59:59.798+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_validate_silver_order_items_train_enriched to None, run_after=None
+[2026-06-11T23:59:59.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_validate_silver_order_items_train_enriched.py took 0.107 seconds

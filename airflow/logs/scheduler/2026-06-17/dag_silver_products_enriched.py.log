@@ -1,0 +1,91 @@
+[2026-06-17T01:15:25.021+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:15:25.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:15:25.025+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:15:25.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:15:25.034+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:15:25.076+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:15:25.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:15:25.101+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:15:25.101+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:15:25.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.119 seconds
+[2026-06-17T01:15:55.185+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:15:55.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:15:55.188+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:15:55.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:15:55.196+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:15:55.233+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:15:55.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:15:55.250+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:15:55.250+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:15:55.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.089 seconds
+[2026-06-17T01:16:25.339+0000] {processor.py:186} INFO - Started process (PID=487) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:16:25.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:16:25.342+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:16:25.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:16:25.351+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:16:25.381+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:16:25.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:16:25.395+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:16:25.395+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:16:25.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.081 seconds
+[2026-06-17T01:16:56.432+0000] {processor.py:186} INFO - Started process (PID=607) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:16:56.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:16:56.435+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:16:56.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:16:56.443+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:16:56.475+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:16:56.474+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:16:56.491+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:16:56.491+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:16:56.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.086 seconds
+[2026-06-17T01:17:27.445+0000] {processor.py:186} INFO - Started process (PID=729) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:17:27.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:17:27.447+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:17:27.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:17:27.455+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:17:27.483+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:17:27.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:17:27.497+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:17:27.497+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:17:27.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.093 seconds
+[2026-06-17T01:17:58.449+0000] {processor.py:186} INFO - Started process (PID=847) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:17:58.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:17:58.452+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:17:58.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:17:58.463+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:17:58.500+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:17:58.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:17:58.519+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:17:58.518+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:17:58.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.118 seconds
+[2026-06-17T01:18:29.483+0000] {processor.py:186} INFO - Started process (PID=967) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:18:29.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:18:29.487+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:18:29.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:18:29.496+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:18:29.533+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:18:29.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:18:29.552+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:18:29.552+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:18:29.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.134 seconds
+[2026-06-17T01:19:00.636+0000] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:19:00.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:19:00.639+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:19:00.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:19:00.647+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:19:00.678+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:19:00.677+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:19:00.692+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:19:00.691+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:19:00.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.107 seconds
+[2026-06-17T01:19:30.845+0000] {processor.py:186} INFO - Started process (PID=1207) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:19:30.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:19:30.848+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:19:30.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:19:30.856+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:19:30.886+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:19:30.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:19:30.900+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:19:30.900+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:19:30.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.080 seconds
+[2026-06-17T01:20:01.037+0000] {processor.py:186} INFO - Started process (PID=1327) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:20:01.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:20:01.040+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:20:01.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:20:01.049+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:20:01.088+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:20:01.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:20:01.122+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:20:01.122+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:20:01.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.117 seconds
+[2026-06-17T01:20:31.761+0000] {processor.py:186} INFO - Started process (PID=1447) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:20:31.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:20:31.796+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:20:31.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:20:31.804+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:20:31.839+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:20:31.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:20:31.856+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:20:31.856+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:20:31.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.145 seconds
+[2026-06-17T01:21:02.644+0000] {processor.py:186} INFO - Started process (PID=1567) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:21:02.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:21:02.726+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:21:02.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:21:02.737+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:21:02.786+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:21:02.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:21:02.811+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:21:02.811+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:21:02.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.268 seconds
+[2026-06-17T01:21:33.172+0000] {processor.py:186} INFO - Started process (PID=1687) to work on /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:21:33.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_silver_products_enriched.py for tasks to queue
+[2026-06-17T01:21:33.176+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:21:33.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:21:33.186+0000] {processor.py:925} INFO - DAG(s) 'dag_silver_products_enriched' retrieved from /opt/airflow/dags/dag_silver_products_enriched.py
+[2026-06-17T01:21:33.224+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:21:33.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-17T01:21:33.244+0000] {logging_mixin.py:190} INFO - [2026-06-17T01:21:33.244+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_silver_products_enriched to None, run_after=None
+[2026-06-17T01:21:33.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_silver_products_enriched.py took 0.099 seconds
